@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <title>Videva Fashion Line</title>
+    <style>
+        html {
+                scroll-behavior: smooth;
+        }
+        .container {
+                display: inline-block;
+                cursor: pointer;
+        }
+
+        .bar1, .bar2, .bar3 {
+                width: 25px;
+                height: 3px;
+                background-color: white;
+                margin: 3px 0;
+                transition: 0.4s;
+        }
+        
+        .change .bar1 {
+                transform: rotate(-45deg) translate(-4px, 4px);
+        }
+
+        .change .bar2 {opacity: 0;}
+
+        .change .bar3 {
+                transform: rotate(45deg) translate(-4px, -4px);
+        }
+    </style>
+</head>
+<body class="antialiased relative">
+    <nav class="bg-black shadow-lg top-0 fixed z-30 w-full">
+        <div class="max-w-7xl">
+            <div class="flex justify-between">
+                <div class="flex space-x-80">
+                    <div class="flex items-center py-2 px-8">
+                      <a href="#" class="text-white sp:-ml-6 md:-ml-0">
+                        <i class="fas fa-user ml-6 mr-1 -mb-2"></i>
+                        <span class="font-semibold  text-lg ">VFL</span>
+                      </a>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-4">
+                        <a href="#" class="py-2 px-2 font-semibold hover:font-bold text-white">Hoffsfme</a>
+                        <a href="#services" class="py-2 px-2 font-semibold hover:font-bold text-white transition duration-300">About</a>
+                        <a href="#work" class="py-2 px-3 font-semibold hover:font-bold text-white transition duration-300">Works</a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center m-2">
+                    <a href="#contact" class="py-1 px-2 font-medium text-black bg-white rounded hover:bg-white hover:text-red-500 transition duration-300">Contact</a>
+                </div>
+                <div class="md:hidden m-2 ml-80">
+                    <a href="#contact" class="py-1 px-2 font-medium text-black text-xs bg-white rounded-none hover:bg-white hover:text-red-500 transition duration-300">Get In Touchr</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center mr-2">
+                    <!-- <button class="outline-none mobile-menu-button">
+                        <svg class="w-6 h-6 text-white"	x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"> <path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </button> -->
+                    <div class="container mobile-menu-button" id="bars" onclick="myFunction()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu -->
+        <div class="hidden mobile-menu bg-white">
+            <ul class="">
+                <li class="active"><a href="#" class="block px-2 py-3 text-red-500 font-semibold hover:bg-red-500 hover:text-white transition duration-300 border-b-2 m-2 text-center"  onclick="hideContainer()">Home</a></li>
+                <li><a href="#services" class="block px-2 py-3 text-red-500 font-semibold hover:bg-white hover:text-red-500 transition duration-300 border-b-2 m-2 text-center" onclick="hideContainer()">About</a></li>
+                <li><a href="#work" class="block px-2 py-3 text-red-500 font-semibold hover:bg-white hover:text-red-500 transition duration-300 border-b-2 m-2 text-center" onclick="hideContainer()">Works</a></li>
+                <li><a href="#contact" class="block px-2 py-3 text-red-500 font-semibold hover:bg-white hover:text-red-500 transition duration-300 border-b-2 m-2 text-center" onclick="hideContainer()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="relative mt-10 z-10 md:flex min-h-full px-2 items-center justify-between w-screen max-w-full">
+        <div class="flex flex-col justify-between space-y-2 px-1">
+            <h1 class="mt-10 px-2 text-4xl font-bold">VIDEVA FASHION LINE</h1>
+            <p class="sm:text-center md:text-left md:ml-2 text-xl">Get started for Free.</p>
+        </div>
+        <img src="images/showcase.jpg" alt="Responsive components" class="w-max" style="width: 150%;">
+    </header>
+
+    <section class="mt-14">
+        <h1 class="mt-5 text-4xl text-center font-semibold">VIDEVA FASHION LINE</h1>
+        <div class="relative">
+            <img src="" class="w-full absolute mt-5" alt="">
+            <h2 class="absolute text-6xl mt-20 ml-10 hidden md:block">High Fashion</h2>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
