@@ -19,7 +19,7 @@
         }
 
         .bar1, .bar2, .bar3 {
-                width: 25px;
+                width: 20px;
                 height: 3px;
                 background-color: white;
                 margin: 3px 0;
@@ -56,9 +56,6 @@
                 <div class="hidden md:flex items-center m-2">
                     <a href="#contact" class="py-1 px-2 font-medium text-black bg-white rounded hover:bg-white hover:text-red-500 transition duration-300">Contact</a>
                 </div>
-                <div class="md:hidden m-2 -mr-44">
-                    <a href="#contact" class="py-1 px-2 font-medium text-black text-xs bg-white rounded hover:bg-white hover:text-red-500 transition duration-300">Get In Touch</a>
-                </div>
                 <!-- Mobile menu button -->
                 <div class="md:hidden flex items-center mr-2">
                     <!-- <button class="outline-none mobile-menu-button">
@@ -74,27 +71,28 @@
         </div>
         <!-- mobile menu -->
         <div class="hidden mobile-menu bg-white">
-            <ul class="">
-                <li class="active"><a href="#" class="block px-2 py-3 text-red-500 font-semibold hover:bg-red-500 hover:text-white transition duration-300 border-b-2 m-2 text-center"  onclick="hideContainer()">Home</a></li>
-                <li><a href="#services" class="block px-2 py-3 text-red-500 font-semibold hover:bg-white hover:text-red-500 transition duration-300 border-b-2 m-2 text-center" onclick="hideContainer()">About</a></li>
-                <li><a href="#work" class="block px-2 py-3 text-red-500 font-semibold hover:bg-white hover:text-red-500 transition duration-300 border-b-2 m-2 text-center" onclick="hideContainer()">Works</a></li>
-                <li><a href="#contact" class="block px-2 py-3 text-red-500 font-semibold hover:bg-white hover:text-red-500 transition duration-300 border-b-2 m-2 text-center" onclick="hideContainer()">Contact</a></li>
+            <ul class="text-right" onclick="hideContainer()">
+                <li class="active"><a href="#" class="block px-2 py-3 text-gray-600 font-semibold hover:text-black transition duration-300 border-b-2 border-black m-2">Home</a></li>
+                <li><a href="#services" class="block px-2 py-3 text-gray-600 font-semibold hover:text-black transition duration-300 border-b-2 border-black m-2">About</a></li>
+                <li><a href="#work" class="block px-2 py-3 text-gray-600 font-semibold hover:text-black transition duration-300 border-b-2 border-black m-2">Works</a></li>
+                <li><a href="#contact" class="block px-2 py-3 text-gray-600 font-semibold hover:text-black transition duration-300 m-2">Contact</a></li>
             </ul>
         </div>
     </nav>
-    <header class="relative mt-10 z-10 sm:mr-20 md:flex min-h-full px-2 items-center justify-between w-screen max-w-full">
-        <div class="flex flex-col text-center justify-between space-y-2 px-1 mb-5">
-            <h1 class="mt-10 px-2 text-4xl font-bold">VIDEVA FASHION LINE</h1>
-            <p class="sm:text-center md:text-left md:ml-2 text-xl">Home of beauty.</p>
+    <header class="relative xs:mt-16 z-10 sm:mr-20 md:flex min-h-full px-2 items-center justify-between w-screen max-w-full">
+        <div class="flex flex-col justify-between space-y-4 px-1 mb-5">
+            <h1 class="text-4xl font-bold">VIDEVA FASHION LINE</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus, necessitatibus fugiat explicabo dolore similique voluptatibus ullam tempora quidem impedit illo animi cumque omnis consequuntur asperiores, qtruo mollitia nobis corporis.</p>
+            <div class="text-left">
+                <a href="#contact" class="py-2 px-2 font-medium text-white text-xs bg-black rounded-md transition duration-300">Get In Touch</a>
+            </div>
         </div>
-        <img src="images/showcase.jpg" alt="Responsive components" class="m-2">
+        <img src="images/showcase.jpg" alt="Responsive components" class="">
     </header>
 
-    <section class="mt-14">
-        <h1 class="mt-5 text-4xl text-center font-semibold">VIDEVA FASHION LINE</h1>
-        <div class="relative">
-            <img src="" class="w-full absolute mt-5" alt="">
-            <h2 class="absolute text-6xl mt-20 ml-10 hidden md:block">High Fashion</h2>
+    <section class="mt-14 h-full" style="background-image: url(images/showcase.jpg);">
+        <div class="p-5">
+            <h2 class="text-2xl pb-3 border-b-2 inline">What we do</h2>
         </div>
     </section>
 
