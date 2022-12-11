@@ -1,19 +1,25 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  darkMode: "class", // or 'media' or 'class'
   theme: {
-    screens: {
-      'sp': '350px',
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1080px',
-      '2xl': '1536px',
+    extend: {
+      screens: {
+        'sp': '350px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1080px',
+        '2xl': '1536px',
+      },
+      colors: {
+        'black-rgba': 'rgba(251, 251, 251, 0.1)',
+      },
     },
-    extend: {},
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 }
