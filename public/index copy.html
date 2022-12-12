@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <title>Videva Fashion Line</title>
+    <style>
+        html {
+                scroll-behavior: smooth;
+                overflow-x: hidden;
+                overflow-y: scroll;
+        }
+        .container {
+                display: inline-block;
+                cursor: pointer;
+        }
+
+        .bar1, .bar2, .bar3 {
+                width: 20px;
+                height: 3px;
+                background-color: white;
+                margin: 3px 0;
+                transition: 0.4s;
+        }
+        
+        .change .bar1 {
+                transform: rotate(-45deg) translate(-4px, 4px);
+        }
+
+        .change .bar2 {opacity: 0;}
+
+        .change .bar3 {
+                transform: rotate(45deg) translate(-4px, -4px);
+        }
+    </style>
+</head>
+<body class="antialiased relative">
+    <nav class="bg-black shadow-lg top-0 fixed z-30 w-full">
+        <div class="max-w-7xl">
+            <div class="flex justify-between">
+                <div class="flex space-x-5">
+                    <div class="flex items-center py-2 px-8">
+                      <a href="#" class="text-white sp:-ml-6 md:-ml-0">
+                        <span class="font-semibold  text-lg ">VFL</span>
+                      </a>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-4">
+                        <a href="#" class="py-2 px-2 font-semibold hover:font-bold text-white">Home</a>
+                        <a href="#services" class="py-2 px-2 font-semibold hover:font-bold text-white transition duration-300">About</a>
+                        <a href="#work" class="py-2 px-3 font-semibold hover:font-bold text-white transition duration-300">Works</a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center m-2">
+                    <a href="#contact" class="py-1 px-2 font-medium text-black bg-white rounded hover:bg-white hover:text-red-500 transition duration-300">Contact</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center mr-2">
+                    <div class="container mobile-menu-button" id="bars" onclick="myFunction()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu -->
+        <div class="hidden mobile-menu bg-white">
+            <ul class="text-right" onclick="hideContainer()">
+                <li class="active"><a href="#" class="block px-2 py-3 text-gray-600 font-semibold hover:text-black transition duration-300 border-b-2 border-black m-2">Home</a></li>
+                <li><a href="#about" class="block px-2 py-3 text-gray-600 font-semibold hover:text-black transition duration-300 border-b-2 border-black m-2">About</a></li>
+                <li><a href="#designs" class="block px-2 py-3 text-gray-600 font-semibold hover:text-black transition duration-300 border-b-2 border-black m-2">Designs</a></li>
+                <li><a href="#testimonial" class="block px-2 py-3 text-gray-600 font-semibold hover:text-black transition duration-300 border-b-2 border-black m-2">Testimonials</a></li>
+                <li><a href="#contact" class="block px-2 py-3 text-gray-600 font-semibold hover:text-black transition duration-300 m-2">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="relative mt-10 pt-4 px-2 z-10 md:flex md:-mt-24 min-h-full items-center justify-between w-full mx-1 max-w-7xlg">
+        <div class="relative max-w-full">
+            <div class="relative md:flex justify-between pt-4 px-1 md:px-2 md:pt-12 md:mt-20">
+                <div class="flex flex-col pt-1 md:mt-5">
+                    <!-- <div> -->
+                            <h1 class="text-4xl font-bold mb-4">VIDEVA FASHION LINE</h1>
+                            <p class="mb-4 text-xl">Turning you into a fashionista! Let's bring your design to life with fabrics.</p>
+                            <a href="#contact" class="py-3 px-2 w-36 font-medium text-white text-xl bg-black rounded-md transition duration-300">Get In Touch</a>
+                            
+                    <!-- </div> -->
+                </div>
+                <div class="flex flex-shrink-0 justify-center mt-5 md:ml-52 items-center w-full md:w-96">
+                    <img src="images/fashionplain.jpg" alt="Responsive components" class="w-64">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="mt-10 pt-5 h-full" style="background-image: url(images/bgfashion.png);" id="about">
+        <div class="py-10 px-3 text-xl">
+            <h2 class="text-4xl pb-3 border-b-2 inline">About Us</h2>
+            <div class="mt-10 -ml-1 space-y-4">
+              <p class=""><span class="p-1 border top-8 -mb-10 mr-2 inline rounded-full">1</span>DIY Sewing Community</p>
+              <p class=""><span class="p-1 border top-8 -mb-10 mr-2 inline rounded-full">2</span>Fashion Students</p>
+              <p class=""><span class="p-1 border top-8 -mb-10 mr-2 inline rounded-full">3</span>Clothing Boutiques</p>
+              <p class=""><span class="p-1 border top-8 -mb-10 mr-2 inline rounded-full">4</span>Tailors & Dressmakers</p>
+              <p class=""><span class="p-1 border top-8 -mb-10 mr-2 inline rounded-full">5</span>Training</p>
+              <p class=""><span class="p-1 border top-8 -mb-10 mr-2 inline rounded-full">6</span>Consulting</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="m-2 md:flex" id="designs">
+        <div class="flex mt-10 text-center space-x-2">
+            <div class="flex md:w-80">
+                <div>
+                    <img src="images/fashion2.jpg" alt="" srcset="">
+                    <p>This is a text</p>
+                </div>
+            </div>
+            <div class="flex">
+                <div>
+                    <img src="images/fashion3.jpg" alt="" srcset="">
+                    <p>This is a text</p>
+                </div>
+            </div>
+            <div class="flex">
+                <div>
+                    <img src="images/fashion6.jpg" alt="" srcset="">
+                    <p>This is a text</p>
+                </div>
+            </div>
+        </div>
+        <div class="ml-3">
+            <h3 class="text-3xl mb-5 pt-10">Design a complete fashion collection in minutes 1</h3>
+            <p class="text-lg">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime alias nam quibusdam ut, dolorum veritatis est at cum, quod hic itaque adipisci laborum nemo vero deserunt rerum voluptate fugiat molestias?
+            </p>
+            <p class="text-lg">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime alias nam quibusdam ut, dolorum veritatis est at cum, quod hic itaque adipisci laborum nemo vero deserunt rerum voluptate fugiat molestias?
+            </p>
+        </div>
+    </section>
+
+    <section class="m-2">
+        <h3 class="text-3xl mb-5">Design a complete fashion collection in minutes 2</h3>
+        <p class="text-lg">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime alias nam quibusdam ut, dolorum veritatis est at cum, quod hic itaque adipisci laborum nemo vero deserunt rerum voluptate fugiat molestias?
+        </p>
+        <p class="text-lg">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime alias nam quibusdam ut, dolorum veritatis est at cum, quod hic itaque adipisci laborum nemo vero deserunt rerum voluptate fugiat molestias?3
+        </p>
+    </section>
+
+    <section>
+        <div class="grid grid-cols-3 grid-rows-1  grid-flow-col gap-2 text-center space-x-2 m-2">
+            <div class="grid col-span-1 row-span-1">
+                <div>
+                    <img src="images/fashionpl.jpg" alt="" srcset="">
+                    <p>This is a text</p>
+                </div>
+            </div>
+            <div class="grid col-span-1 row-span-1">
+                <div class="">
+                    <img class="" src="images/fashion4.jpg" alt="" srcset="">
+                    <p>This is the second text</p>
+                </div>
+            </div>
+            <div class="grid col-span-1 row-span-1">
+                <div class="">
+                    <img class="" src="images/fashionp.jpg" alt="" srcset="">
+                    <p>This is the second text</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-4">
+        <h4 class="text-center text-4xl m-2">New orem ipsum dolor sit amet consectetur</h4>
+        <div class="grid grid-cols-1 grid-rows-6 md:grid-cols-3 md:grid-rows-2 gap-2 text-center my-4 mx-2">
+            <div class="">
+                <img class="w-full" src="images/fashion5.jpg" alt="" >
+                <p class="text-2xl mt-2">This is the first text</p>
+                <p class="text-lg mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic nisi illo aliquid? Rerum commodi voluptatem inventore quo ea assumenda eveniet placeat ex mollitia consequatur? Facilis rem soluta quos veritatis iure.</p>
+            </div>
+            <div class="">
+                <img class="w-full" src="images/fashion5.jpg" alt="" srcset="">
+                <p class="text-2xl mt-2">This is the second text</p>
+                <p class="text-lg mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic nisi illo aliquid? Rerum commodi voluptatem inventore quo ea assumenda eveniet placeat ex mollitia consequatur? Facilis rem soluta quos veritatis iure.</p>
+            </div>
+            <div class="">
+                <img class="w-full" src="images/fashion5.jpg" alt="" srcset="">
+                <p class="text-2xl mt-2">This is the third text</p>
+                <p class="text-lg mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic nisi illo aliquid? Rerum commodi voluptatem inventore quo ea assumenda eveniet placeat ex mollitia consequatur? Facilis rem soluta quos veritatis iure.</p>
+            </div>
+            <div class="">
+                <img class="w-full" src="images/fashion5.jpg" alt="" srcset="">
+                <p class="text-2xl mt-2">This is the fourth text</p>
+                <p class="text-lg mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic nisi illo aliquid? Rerum commodi voluptatem inventore quo ea assumenda eveniet placeat ex mollitia consequatur? Facilis rem soluta quos veritatis iure.</p>
+            </div>
+            <div class="">
+                <img class="w-full" src="images/fashion5.jpg" alt="" srcset="">
+                <p class="text-2xl mt-2">This is the fifth text</p>
+                <p class="text-lg mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic nisi illo aliquid? Rerum commodi voluptatem inventore quo ea assumenda eveniet placeat ex mollitia consequatur? Facilis rem soluta quos veritatis iure.</p>
+            </div>
+            <div class="">
+                <img class="w-full" src="images/fashion5.jpg" alt="" srcset="">
+                <p class="text-2xl mt-2">This is the sixth text</p>
+                <p class="text-lg mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic nisi illo aliquid? Rerum commodi voluptatem inventore quo ea assumenda eveniet placeat ex mollitia consequatur? Facilis rem soluta quos veritatis iure.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center">
+        <p class="text-3xl">What we have so far</p>
+        <div class="grid grid-cols-2 md:grid-cols-4 grid-rows-2 md:grid-rows-1 gap-2 space-x-2 m-2 text-2xl">
+            <div class="mt-2">
+                <div class="">
+                    <p>100</p>
+                    <p>Pattern users</p>
+                </div>
+            </div>
+            <div class="mt-2">
+                <div class="">
+                    <p>2000</p>
+                    <p>Design possibilities</p>
+                </div>
+            </div>
+            <div class="mt-2">
+                <div class="">
+                    <p>350</p>
+                    <p>Clients</p>
+                </div>
+            </div>
+            <div class="mt-2">
+                <div>
+                    <p>$10</p>
+                    <p>Least price</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-10" id="testimonial">
+        <div class="max-w-8xl mx-auto">
+            <div class="text-center">
+                <h3 class="text-3xl">Testimonials</h3   >
+                <p class="pt-2 text-xl">What Our Customers Are Saying...</p>
+            </div>
+        </div>
+        <div class="md:grid">
+            <figure class="bg-red-100 md:grid grid-cols-3 grid-rows-1 mt-5 px-2 py-6 gap-2">
+                <div class="pt-2 text-center space-y-4">
+                    <blockquote>
+                        <p class="text-lg">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum adipisci maxime eligendi tempora tempore, consequuntur nihil, libero tenetur sed nesciunt, unde accusantium! Ea sint saepe quaerat quia est eius fugit.
+                        </p>
+                    </blockquote>
+                    <figcaption class="">
+                        <p class="text-cyan-600">
+                            Sarah Dayan
+                        </p>
+                        <p class="">
+                            Staff Engineer, ABL
+                        </p>
+                    </figcaption>
+                    <img class="w-32 h-32 rounded-full mx-auto" src="images/brownAnkara.jpg" alt="">
+                </div>
+                <div class="pt-6 pb-10 md:mx-2 md:p-2 text-center space-y-4 sp:mt-10 md:mt-0 border sp:border-t-2 sp:border-b-2 sp:border-l-0 sp:border-r-0 sp:border-black md:border-black md:border-t-0 md:border-b-0 md:border-l md:border-r">
+                    <blockquote>
+                        <p class="text-lg">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum adipisci maxime eligendi tempora tempore, consequuntur nihil, libero tenetur sed nesciunt, unde accusantium! Ea sint saepe quaerat quia est eius fugit.
+                        </p>
+                    </blockquote>
+                    <figcaption class="">
+                        <p class="text-cyan-600">
+                            Sarah Dayan
+                        </p>
+                        <p class="">
+                            Staff Engineers, ABL
+                        </p>
+                    </figcaption>
+                    <img class="w-32 h-32 rounded-full mx-auto" src="images/brownAnkara.jpg" alt="">
+                </div>
+                <div class="pt-4 md:pt-2 text-center space-y-4">
+                    <blockquote>
+                        <p class="text-lg">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum adipisci maxime eligendi tempora tempore, consequuntur nihil, libero tenetur sed nesciunt, unde accusantium! Ea sint saepe quaerat quia est eius fugit.
+                        </p>
+                    </blockquote>
+                    <figcaption class="">
+                        <p class="text-cyan-600">
+                            Sarah Dayan
+                        </p>
+                        <p class="">
+                            Staff Engineer, ABL
+                        </p>
+                    </figcaption>
+                    <img class="w-32 h-32 rounded-full mx-auto" src="images/brownAnkara.jpg" alt="">
+                </div>
+            </figure>
+        </div>
+    </section>
+
+    <section class="bg-black mt-4 py-12 px-4 mx-auto text-white">
+        <div class="text-center">
+            <h5 class="text-2xl pb-2">Join the WhatsApp trybe.<i class="fab fa-whatsapp text-green-400 ml-2"></i></h5>
+            <p class="text-xl">Get exclusive design updates, discount deals on our WhatsApp status.</p>
+        </div>
+        <div class="text-center mt-8">
+            <a href="https://wa.link/5ow50f" class="py-2 px-4 font-medium text-black border-2 border-green-300 text-md bg-white rounded-md transition duration-300">CLICK HERE TO JOIN</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="text-center my-10">
+            <a href="#contact" class="py-2 px-4 font-medium text-white text-md bg-black rounded-md transition duration-300">FULL CONTACT INFO</a>
+        </div>
+    </section>
+
+    <section class="bg-black text-white py-12 px-4 mx-auto">
+        <div class="text-center">
+            <h5 class="text-2xl pb-2">Join our list.</h5>
+            <p class="text-xl">Sign up here to get latest updates, special offers and be the first in the know!</p>
+        </div>
+        <div class="text-center">
+                <div class="mt-4 relative max-w-6xl mx-auto">
+                    <form action="" class="mb-5">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-4">
+                            <input class="p-2 text-left border border-black outline-none px-4 py-2 rounded-md hover:border-red-300 focus:border-red-500" type="text" placeholder="Full Name*">
+                            <input class="p-2 text-left border border-black outline-none px-4 py-2 rounded-md hover:border-red-300 focus:border-red-500" type="text" placeholder="Phone number*">
+                            <input class="p-2 text-left border border-black outline-none px-4 py-2 rounded-md hover:border-red-300 focus:border-red-500" type="text" placeholder="Mail*">
+                        </div>
+                    </form>
+                </div>
+                <div class="max-w-3xl mx-auto">
+                        <a href="#contact" class="py-2 px-28 rounded-md font-medium text-black text-lg bg-white transition duration-300">SIGN ME UP</a>
+                </div>
+        </div>
+    </section>
+
+    <footer class="m-4 md:mx-0" id="contact">
+        <div>
+            <h5 class="text-center text-xl font-bold my-4">VFL</h5>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 max-w-7xl gap-2 space-y-4 mx-auto md:mx-2">
+            <div>
+                <h5 class="font-semibold text-lg mb-1">
+                    CONTACT INFO
+                </h5>
+                <p>1900 South Norfolk Street, Suite 350</p>
+                <p>1900 South Norfolk Street, Suite 350</p>
+                <p>1900 South Norfolk Street, Suite 350</p>
+            </div>
+            <div>
+                <h5 class="font-semibold text-lg mb-1">
+                    COMPANY
+                </h5>
+                <p>About us</p>
+                <p>Terms & Conditions</p>
+            </div>
+            <div>
+                <h5 class="font-semibold text-lg mb-1">
+                    SOLUTIONS
+                </h5>
+                <p>Demo link</p>
+                <p>Demo link</p>
+                <p>Demo link</p>
+            </div>
+            <div>
+                <h5 class="font-semibold text-lg mb-1">
+                    FOLLOW US
+                </h5>
+                <div>
+                    <a href="https://www.twitter.com/videvafashionline"><i class="fab fa-twitter text-blue-400 mr-2"></i>Twitter</a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/videvafashionline"><i class="fab fa-facebook text-blue-300 mr-2"></i>Facebook</a>
+                </div>
+                <div>
+                    <a href="https://wa.me/2348084458438"><i class="fab fa-whatsapp text-green-400 mr-2"></i>WhatsApp</a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/videvafashionline"><i class="fab fa-instagram text-red-900 mr-2"></i>Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
