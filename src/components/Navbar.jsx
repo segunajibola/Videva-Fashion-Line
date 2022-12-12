@@ -11,7 +11,7 @@ const Navbar = ({ handleMode, darkMode }) => {
   return (
     <div className="fixed z-20 w-full h-[80px] shadow-lg flex justify-between items-center px-4 bg-[#2b4b77] dark:bg-gray-500 text-gray-300 dark:text-gray-800">
       <Link
-        className="cursor-ponter"
+        className="cursor-pointer"
         to="/"
         onClick={() => window.scrollTo(0, 0)}
       >
