@@ -18,7 +18,7 @@ const Navbar = ({ handleMode, darkMode }) => {
         <img
           src={Logo}
           alt="Logo Image"
-          style={{ width: "80px", height: "80px", borderRadius: "50px" }}
+          style={{ width: "50px", height: "50px", borderRadius: "50px" }}
         />
       </Link>
 
