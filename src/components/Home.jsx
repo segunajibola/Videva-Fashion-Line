@@ -32,16 +32,48 @@ const Home = () => {
     </header>
 
     <section className="mt-10 pt-5 h-full" style={{backgroundImage: `url(images/bgfashion.png)`}} id="about">
-        <div className="py-10 px-3 text-xl">
+        <div className="py-10 px-3 text-2xl">
             <h2 className="text-4xl text-center pb-3 border-b-4">About Us</h2>
             <div className="mt-10 -ml-1 space-y-6">
-              <p className=""><span className="p-1 border top-8 -mb -10 mr-2 inline rounded-full">1</span>DIY Sewing Community</p>
-              <p className=""><span className="p-1 border top-8 -mb-10 mr-2 inline rounded-full">2</span>Fashion Students</p>
-              <p className=""><span className="p-1 border top-8 -mb-10 mr-2 inline rounded-full">3</span>Clothing Boutiques</p>
-              <p className=""><span className="p-1 border top-8 -mb-10 mr-2 inline rounded-full">4</span>Tailors & Dressmakers</p>
-              <p className=""><span className="p-1 border top-8 -mb-10 mr-2 inline rounded-full">5</span>Training</p>
-              <p className=""><span className="p-1 border top-8 -mb-10 mr-2 inline rounded-full">6</span>Consulting</p>
+              <p className=""><span className="p-1 border border-black top-8 -mb -10 mr-2 inline rounded-full">1</span>DIY Sewing Community</p>
+              <p className=""><span className="p-1 border border-black top-8 -mb-10 mr-2 inline rounded-full">2</span>Fashion Students</p>
+              <p className=""><span className="p-1 border border-black top-8 -mb-10 mr-2 inline rounded-full">3</span>Clothing Boutiques</p>
+              <p className=""><span className="p-1 border border-black top-8 -mb-10 mr-2 inline rounded-full">4</span>Tailors & Dressmakers</p>
+              <p className=""><span className="p-1 border border-black top-8 -mb-10 mr-2 inline rounded-full">5</span>Training</p>
+              <p className=""><span className="p-1 border border-black top-8 -mb-10 mr-2 inline rounded-full">6</span>Consulting</p>
             </div>
+        </div>
+    </section>
+
+    <section className="m-2 md:flex" id="designs">
+        <div className="flex mt-10 text-center space-x-2">
+            <div className="flex md:w-80">
+                <div>
+                    <img src="images/fashion2.jpg" alt="" srcset="" />
+                    <p>This is a text</p>
+                </div>
+            </div>
+            <div className="flex">
+                <div>
+                    <img src="images/fashion3.jpg" alt="" srcset="" />
+                    <p>This is a text</p>
+                </div>
+            </div>
+            <div className="flex">
+                <div>
+                    <img src="images/fashion6.jpg" alt="" srcset="" />
+                    <p>This is a text</p>
+                </div>
+            </div>
+        </div>
+        <div className="ml-3">
+            <h3 className="text-3xl mb-5 pt-10">Design a complete fashion collection in minutes 1</h3>
+            <p className="text-lg">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime alias nam quibusdam ut, dolorum veritatis est at cum, quod hic itaque adipisci laborum nemo vero deserunt rerum voluptate fugiat molestias?
+            </p>
+            <p className="text-lg">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime alias nam quibusdam ut, dolorum veritatis est at cum, quod hic itaque adipisci laborum nemo vero deserunt rerum voluptate fugiat molestias?
+            </p>
         </div>
     </section>
     </>
