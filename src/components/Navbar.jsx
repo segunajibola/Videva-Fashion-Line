@@ -9,7 +9,7 @@ const Navbar = ({ handleMode, darkMode }) => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed z-20 w-full h-[80px] shadow-lg flex justify-between items-center px-4 bg-[#2b4b77] dark:bg-gray-500 text-gray-300 dark:text-gray-800">
+    <div className="fixed z-20 w-full h-[50px] shadow-lg flex justify-between items-center px-4 bg-[#2b4b77] dark:bg-gray-500 text-gray-300 dark:text-gray-800">
       <Link
         className="cursor-pointer"
         to="/"
@@ -18,7 +18,7 @@ const Navbar = ({ handleMode, darkMode }) => {
         <img
           src={Logo}
           alt="Logo Image"
-          style={{ width: "50px", height: "50px", borderRadius: "50px" }}
+          style={{ width: "40px", height: "40px", borderRadius: "50px" }}
         />
       </Link>
 
