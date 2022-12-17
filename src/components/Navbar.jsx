@@ -30,27 +30,9 @@ const Navbar = ({ handleMode, darkMode }) => {
           </Link>
         </li>
         <li className="hover:scale-110">
-          <Link to="/about" className="peer">
+          <Link to="/about">
             About
-            <IoIosArrowDown className="inline ml-1" />
-          </Link>
-          <div className="hidden p-5 peer-hover:flex hover:flex bg-transparent w-[250px] -mt-2 h-[500px] absolute">
-            <span
-            className="peer-hover:flex flex absolute
-         w-[150px] h-[150px] flex-col mt-5 bg-white drop-shadow-lg z-10"
-          >
-            <a className="px-2 py-3 hover:bg-gray-200 text-black" href="/about#vision">
-              Our Vision
-            </a>
-            <a className="px-2 py-3 hover:bg-gray-200 text-black" href="/about#mission">
-              Our Mission
-            </a>
-            <a className="px-2 py-3 hover:bg-gray-200 text-black" href="/about#coreValues">
-              Core Values
-            </a>
-          </span>
-          </div>
-          
+          </Link>          
         </li>
         <li className="cursor-pointer">
           <Link to="/services">Services</Link>
