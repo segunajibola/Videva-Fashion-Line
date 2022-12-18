@@ -47,9 +47,23 @@ const Home = () => {
         </div>
       </header>
 
-      <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi minima neque pariatur cupiditate facere maiores nobis vel ratione mollitia, quod sint dicta ullam autem nostrum eligendi numquam iste sit.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam tenetur, at earum impedit odit repellat accusamus non debitis aliquid vel recusandae excepturi reiciendis quia quam! In veritatis corrupti et nam?</p>
+      <section className="bg-gray-900 dark:bg-gray-100 text-white p-10 text-xl">
+        <div className="w-[90vw] mx-auto">
+          <div className="grid grid-cols-6 gap-4">
+            <p className="col-start-1 col-end-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi
+            minima neque pariatur cupiditate facere maiores nobis vel ratione
+            mollitia, quod sint dicta ullam autem nostrum eligendi numquam iste
+            sit.
+          </p>
+            <p className="col-end-7 col-span-2">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
+              tenetur, at earum impedit odit repellat accusamus non debitis
+              aliquid vel recusandae excepturi reiciendis quia quam! In
+              veritatis corrupti et nam?
+            </p>
+          </div>
+        </div>
       </section>
 
       <section
