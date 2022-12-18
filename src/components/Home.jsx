@@ -47,6 +47,11 @@ const Home = () => {
         </div>
       </header>
 
+      <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi minima neque pariatur cupiditate facere maiores nobis vel ratione mollitia, quod sint dicta ullam autem nostrum eligendi numquam iste sit.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam tenetur, at earum impedit odit repellat accusamus non debitis aliquid vel recusandae excepturi reiciendis quia quam! In veritatis corrupti et nam?</p>
+      </section>
+
       <section
         className="mt-10 pt-5 h-full"
         style={{ backgroundImage: `url(images/bgfashion.png)` }}
