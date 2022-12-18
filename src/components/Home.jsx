@@ -47,16 +47,14 @@ const Home = () => {
         </div>
       </header>
 
-      <section className="bg-gray-900 dark:bg-gray-100 text-white p-10 text-xl">
-        <div className="w-[90vw] mx-auto">
-          <div className="grid grid-cols-6 gap-4">
-            <p className="col-start-1 col-end-3">
+      <section className="bg-gray-900 dark:bg-gray-100 text-white p-10 text-2xl">
+        <div className="w-[60vw] mx-auto">
+          <div className="grid grid-cols-4 grid-rows-2 gap-y-8 gap-x-4">
+            <p className="col-start-1 col-span-3 row-start-1 text-demo1">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              sequi minima neque pariatur cupiditate facere maiores nobis vel
-              ratione mollitia, quod sint dicta ullam autem nostrum eligendi
-              numquam iste sit.
+              sequi minima neque pariatur cupiditate facere maiores nobis velum dolor sit amet consectetur adipisicing elit. Quas eaque inventore tempore reprehenderit corporis exercitationem, ut excepturi eligendi porro? Sit quas labore hic illum corporis enim aliquid excepturi? Deleniti, dolore.
             </p>
-            <p className="col-end-7 col-span-2">
+            <p className="col-end-6 col-span-3 row-start-2 text-xl">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
               tenetur, at earum impedit odit repellat accusamus non debitis
               aliquid vel recusandae excepturi reiciendis quia quam! In
