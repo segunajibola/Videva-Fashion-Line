@@ -72,11 +72,11 @@ const Home = () => {
       </section>
 
       <div className="bg-gray-900 dark:bg-gray-100 relative h-[70vh]">
-        <img src="/images/fashion4.jpg" alt="" className="w-[80vw] ml-auto absolute top-10 h-[30rem]" />
+        <img src="/images/fashion4.jpg" alt="" className="w-[80vw] ml-auto absolute top-10 h-[150%]" />
       </div>
 
       <section
-        className="mt-10 pt-5 h-full bg-gray-700"
+        className="mt-10 pt-5 h-full bg-gray-700 mt-[20rem]"
         style={{ backgroundImage: `url(images/bgfashion.png)` }}
         id="about"
       >
