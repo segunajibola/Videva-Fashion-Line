@@ -25,12 +25,12 @@ const Home = () => {
               >
                 Contact Us
               </a>
-              <div className="flex space-x-6 text-xl">
+              <div className="flex space-x-6 text-xl divide-x">
                 <div className="flex flex-col">
                   <p>100+</p>
                   <p>Happy Customers</p>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col pl-5">
                   <p>15+</p>
                   <p>Shop Outlets</p>
                 </div>
