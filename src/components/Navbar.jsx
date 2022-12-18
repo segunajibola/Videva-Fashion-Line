@@ -11,7 +11,7 @@ const Navbar = ({ handleMode, darkMode }) => {
   return (
     <div className="fixed z-20 w-full h-[80px] flex justify-between items-center px-4 bg-gray-900 dark:bg-gray-100 text-gray-300 dark:text-gray-800">
       {/* menu */}
-      <ul className="hidden md:flex space-x-10 text-lg font-semibold tracking-wide mx-auto">
+      <ul className="hidden md:flex space-x-10 text-lg tracking-wide mx-auto">
         <li className="cursor-pointer my-3">
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
             Home

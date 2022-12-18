@@ -21,16 +21,16 @@ const Home = () => {
               </p>
               <a
                 href="#contact"
-                className="py-3 px-2 w-36 font-medium text-white text-xl bg-black rounded-md transition duration-300"
+                className="py-3 px-2 w-32 font-medium text-black text-xl bg-gray-300 rounded-md transition duration-300"
               >
                 Contact Us
               </a>
-              <div className="flex space-x-6 text-xl">
+              <div className="flex space-x-6 text-xl divide-x">
                 <div className="flex flex-col">
                   <p>100+</p>
                   <p>Happy Customers</p>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col pl-5">
                   <p>15+</p>
                   <p>Shop Outlets</p>
                 </div>
@@ -47,8 +47,54 @@ const Home = () => {
         </div>
       </header>
 
+      <section className="bg-gray-900 dark:bg-gray-100 text-white p-10 text-2xl">
+        <div className="w-[70vw] mx-auto">
+          <div className="grid grid-cols-4 grid-rows-2 gap-y-8 gap-x-4">
+            <p className="col-start-1 col-span-3 text-demo1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              sequi minima neque pariatur cupiditate facere maiores nobis velum
+              dolor sit amet consectetur adipisicing elit. Quas eaque inventore
+              tempore reprehenderit corporis exercitationem, ut excepturi
+              eligendi porro? Sit quas labore hic illum corporis enim aliquid
+              excepturi Deleniti, dolore.
+            </p>
+            <div className="col-end-5 col-span-2 row-start-2">
+              <h3 className="text-2xl mb-2">
+                Bringing innovation to the style
+              </h3>
+              <p className="text-xl">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
+                tenetur, at earum impedit odit repellat accusamus non debitis
+                aliquid vel recusandae excepturi reiciendis quia quam! In
+                veritatis corrupti et nam?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="bg-gray-900 dark:bg-gray-100 relative h-[70vh] w-[92vw]">
+        <img
+          src="/images/fashion4.jpg"
+          alt=""
+          className="w-[80%] left-10 ml-auto absolute top-10 h-[150%] inline"
+        />
+        <div className="inline absolute text-gray-500 right-4 w-[15%]">
+          <h3 className="text-xl mb-2">Sattica Manasa</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quod
+            saepe repellat facere laborum voluptate debitis quia quidem omnis
+            minima sint aliquid, id magni qui repellendus autem fuga fugit
+            placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates, ut molestias repellendus, cupiditate quaerat laudantium
+            architecto eum natus libero facere consequuntur? Facilis fuga illum
+            fugit unde culpa esse fugiat nulla!
+          </p>
+        </div>
+      </div>
+
       <section
-        className="mt-10 pt-5 h-full"
+        className="mt-10 pt-5 h-full bg-gray-900 mt-[20rem]"
         style={{ backgroundImage: `url(images/bgfashion.png)` }}
         id="about"
       >
