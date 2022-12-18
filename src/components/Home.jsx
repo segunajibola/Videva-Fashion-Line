@@ -59,8 +59,8 @@ const Home = () => {
               excepturi Deleniti, dolore.
             </p>
             <div className="col-end-5 col-span-2 row-start-2">
-              <h3 className="text-xl">Bringing innovation to the style</h3>
-              <p className="text-md">
+              <h3 className="text-2xl mb-2">Bringing innovation to the style</h3>
+              <p className="text-xl">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
                 tenetur, at earum impedit odit repellat accusamus non debitis
                 aliquid vel recusandae excepturi reiciendis quia quam! In
@@ -71,8 +71,12 @@ const Home = () => {
         </div>
       </section>
 
+      <div className="bg-gray-900 dark:bg-gray-100 relative h-[70vh]">
+        <img src="/images/fashion4.jpg" alt="" className="w-[80vw] ml-auto absolute top-10 h-[30rem]" />
+      </div>
+
       <section
-        className="mt-10 pt-5 h-full"
+        className="mt-10 pt-5 h-full bg-gray-700"
         style={{ backgroundImage: `url(images/bgfashion.png)` }}
         id="about"
       >
