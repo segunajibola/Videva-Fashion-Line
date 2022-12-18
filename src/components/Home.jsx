@@ -21,7 +21,7 @@ const Home = () => {
               </p>
               <a
                 href="#contact"
-                className="py-3 px-2 w-36 font-medium text-white text-xl bg-black rounded-md transition duration-300"
+                className="py-3 px-2 w-32 font-medium text-black text-xl bg-gray-300 rounded-md transition duration-300"
               >
                 Contact Us
               </a>
