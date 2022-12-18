@@ -3,10 +3,10 @@ import React from "react";
 const Home = () => {
   return (
     <>
-    <header className="pt-4 md:pt-0 px-2 z-10 md:flex min-h-full items-center justify-between w-full bg-gray-100 bg-[#2b 4b77]">
-      <div className="w-[98vw] mx-auto">
+    <header className="pt-4 md:pt-0 px-2 z-10 md:flex min-h-full items-center justify-between w-full bg-gray-900 dark:bg-gray-100 text-white">
+      <div className="w-[90vw] mx-auto">
         <div className="md:flex md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-10 md:h-[80vh] mx-auto">
-          <div className="flex flex-col pt-1 space-y-12 md:mt-5 my-auto">
+          <div className="flex flex-col pt-1 space-y-12 md:mt-15 my-auto">
             <h1 className="text-4xl font-bold mb-4">VIDEVA FASHION LINE</h1>
             <p className="text-2xl">
               Turning you into a fashionista! Let's bring your design to life
