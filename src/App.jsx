@@ -10,14 +10,14 @@ function App() {
   };
 
   return (
-    <>
+    <div className={`overflow-hidden ${darkMode ? "dark" : ""}`}>
       <Router>
         <Navbar darkMode={darkMode} handleMode={handleMode} />
         <Routes>
           <Route exact path="/" element={<Home />} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 
