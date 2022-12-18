@@ -52,14 +52,21 @@ const Home = () => {
           <div className="grid grid-cols-4 grid-rows-2 gap-y-8 gap-x-4">
             <p className="col-start-1 col-span-3 text-demo1">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              sequi minima neque pariatur cupiditate facere maiores nobis velum dolor sit amet consectetur adipisicing elit. Quas eaque inventore tempore reprehenderit corporis exercitationem, ut excepturi eligendi porro? Sit quas labore hic illum corporis enim aliquid excepturi? Deleniti, dolore.
+              sequi minima neque pariatur cupiditate facere maiores nobis velum
+              dolor sit amet consectetur adipisicing elit. Quas eaque inventore
+              tempore reprehenderit corporis exercitationem, ut excepturi
+              eligendi porro? Sit quas labore hic illum corporis enim aliquid
+              excepturi Deleniti, dolore.
             </p>
-            <p className="col-end-5 col-span-2 row-start-2 text-xl">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
-              tenetur, at earum impedit odit repellat accusamus non debitis
-              aliquid vel recusandae excepturi reiciendis quia quam! In
-              veritatis corrupti et nam?
-            </p>
+            <div className="col-end-5 col-span-2 row-start-2">
+              <h3 className="text-xl">Bringing innovation to the style</h3>
+              <p className="text-md">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
+                tenetur, at earum impedit odit repellat accusamus non debitis
+                aliquid vel recusandae excepturi reiciendis quia quam! In
+                veritatis corrupti et nam?
+              </p>
+            </div>
           </div>
         </div>
       </section>
