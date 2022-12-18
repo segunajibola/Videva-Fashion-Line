@@ -59,7 +59,9 @@ const Home = () => {
               excepturi Deleniti, dolore.
             </p>
             <div className="col-end-5 col-span-2 row-start-2">
-              <h3 className="text-2xl mb-2">Bringing innovation to the style</h3>
+              <h3 className="text-2xl mb-2">
+                Bringing innovation to the style
+              </h3>
               <p className="text-xl">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
                 tenetur, at earum impedit odit repellat accusamus non debitis
@@ -71,12 +73,28 @@ const Home = () => {
         </div>
       </section>
 
-      <div className="bg-gray-900 dark:bg-gray-100 relative h-[70vh]">
-        <img src="/images/fashion4.jpg" alt="" className="w-[80vw] ml-auto absolute top-10 h-[150%]" />
+      <div className="bg-gray-900 dark:bg-gray-100 relative h-[70vh] w-[92vw]">
+        <img
+          src="/images/fashion4.jpg"
+          alt=""
+          className="w-[80%] left-10 ml-auto absolute top-10 h-[150%] inline"
+        />
+        <div className="inline absolute text-gray-500 right-4 w-[15%]">
+          <h3 className="text-xl mb-2">Sattica Manasa</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quod
+            saepe repellat facere laborum voluptate debitis quia quidem omnis
+            minima sint aliquid, id magni qui repellendus autem fuga fugit
+            placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates, ut molestias repellendus, cupiditate quaerat laudantium
+            architecto eum natus libero facere consequuntur? Facilis fuga illum
+            fugit unde culpa esse fugiat nulla!
+          </p>
+        </div>
       </div>
 
       <section
-        className="mt-10 pt-5 h-full bg-gray-700 mt-[20rem]"
+        className="mt-10 pt-5 h-full bg-gray-900 mt-[20rem]"
         style={{ backgroundImage: `url(images/bgfashion.png)` }}
         id="about"
       >
