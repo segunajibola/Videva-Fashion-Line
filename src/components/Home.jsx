@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <>
-    <header className="pt-4 md:pt-0 px-2 z-10 md:flex min-h-full items-center justify-between w-full bg-gray-100">
+    <header className="pt-4 md:pt-0 px-2 z-10 md:flex min-h-full items-center justify-between w-full bg-gray-100 bg-[#2b 4b77]">
       <div className="w-[98vw] mx-auto">
         <div className="md:flex md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-10 md:h-[80vh] mx-auto">
           <div className="flex flex-col pt-1 space-y-12 md:mt-5 my-auto">

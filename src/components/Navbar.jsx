@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaMoon, FaLightbulb, FaBars, FaTimes } from "react-icons/fa";
-import { IoIosArrowDown } from "react-icons/io";
+// import { IoIosArrowDown } from "react-icons/io";
 import Logo from "../assets/navbar/logo.jpg";
 import { Link } from "react-router-dom";
 
@@ -9,38 +9,36 @@ const Navbar = ({ handleMode, darkMode }) => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed z-20 w-full h-[50px] shadow-lg flex justify-between items-center px-4 bg-[#2b4b77] dark:bg-gray-500 text-gray-300 dark:text-gray-800">
-      <Link
-        className="cursor-pointer"
+    <div className="fixed z-20 w-full h-[80px] flex justify-between items-center px-4 bg-gray-900 dark:bg-gray-500 text-gray-300 dark:text-gray-800">
+      {/* menu */}
+      <ul className="hidden md:flex space-x-10 text-lg font-semibold tracking-wide mx-auto">
+        <li className="cursor-pointer my-3">
+          <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+            Home
+          </Link>
+        </li>
+        <li className="cursor-pointer my-3">
+          <Link to="/about">
+            About
+          </Link>          
+        </li>
+        <li>
+        <Link
+        className="cursor-pointer my-3"
         to="/"
         onClick={() => window.scrollTo(0, 0)}
       >
         <img
           src={Logo}
           alt="Logo Image"
-          style={{ width: "40px", height: "40px", borderRadius: "50px" }}
+          style={{ width: "60px", height: "60px", borderRadius: "50px" }}
         />
       </Link>
-
-      {/* menu */}
-      <ul className="hidden md:flex space-x-10 text-md font-semibold tracking-wide">
-        <li className="cursor-pointer">
-          <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-            Home
-          </Link>
         </li>
-        <li className="hover:scale-110">
-          <Link to="/about">
-            About
-          </Link>          
-        </li>
-        <li className="cursor-pointer">
+        <li className="cursor-pointer my-3">
           <Link to="/services">Services</Link>
         </li>
-        <li className="cursor-pointer">
-          <Link to="/resources">Resources</Link>
-        </li>
-        <li className="cursor-pointer">
+        <li className="cursor-pointer my-3">
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
