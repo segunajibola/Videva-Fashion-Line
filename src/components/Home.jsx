@@ -93,6 +93,13 @@ const Home = () => {
         </div>
       </div>
 
+      <section className="">
+        <div className="flex space-x-8 md:mt-[20rem]">
+          <h3>About</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint est nam totam ullam fugiat, iusto quidem repudiandae suscipit odit accusantium dolore, beatae cumque, maxime tempore autem corrupti expedita tempora quisquam.</p>
+        </div>
+      </section>
+
       <section
         className="mt-10 pt-5 h-full bg-gray-900 mt-[20rem]"
         style={{ backgroundImage: `url(images/bgfashion.png)` }}
