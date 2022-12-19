@@ -93,8 +93,8 @@ const Home = () => {
         </div>
       </div>
 
-      <section className="">
-        <div className="flex space-x-8 md:mt-[20rem]">
+      <section className="bg-gray-900 dark:bg-gray-100 text-white px-10 py-40 text-xl">
+        <div className="flex space-x-[10rem] md:mt-[20rem]">
           <h3>About</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint est nam totam ullam fugiat, iusto quidem repudiandae suscipit odit accusantium dolore, beatae cumque, maxime tempore autem corrupti expedita tempora quisquam.</p>
         </div>
