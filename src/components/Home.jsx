@@ -108,8 +108,41 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-200 dark:bg-gray-100 text-white py-auto text-lg h-[90vh] border-4 border-red-500">
-        <div className="flex w-[70%] h-[40%] m-auto border-4 border-red-500">
+      <section className="bg-gray-200 dark:bg-gray-100 text-gray-900 px-20 py-24 text-lg">
+        <h3 className="text-center text-3xl mb-12">Services</h3>
+        <div className="flex space-x-4 w-[90%] mx-auto">
+          <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
+            <AiOutlineComment
+              size={145}
+              className="mx-auto hover:animate-bounce duration-100 delay-100 ease-in-out"
+            />
+            <h2 className="text-2xl my-4">Sewing Community</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Doloremque magnam reiciendis.
+            </p>
+          </div>
+          <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
+            <GiClothes size={145} className="mx-auto hover:animate-bounce duration-100 delay-100 ease-in-out" />
+            <h2 className="text-2xl my-4">Clothing Boutiques</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Doloremque magnam reiciendis.
+            </p>
+          </div>
+          <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
+            <GiTeacher size={145} className="mx-auto hover:animate-bounce duration-100 delay-100 ease-in-out" />
+            <h2 className="text-2xl my-4">Training & Consulting</h2>
+            <p>
+              Lorem ipsuím, dolor sit amet consectetur adipisicing elit.
+              Doloremque magnam reiciendis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-gray-900 dark:bg-gray-100 text-white pt-16 text-lg h-[90vh]">
+        <div className="flex w-[70%] h-[40l] m-auto">
           <div className="w-[50%] h-[20%] my-auto z-10">
             <img
               src="/images/suit.png"
@@ -130,37 +163,6 @@ const Home = () => {
               <button className="p-4 bg-gray-700">Customize your dress</button>
               <button>Make an appointment</button>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-gray-900 dark:bg-gray-100 text-white p-20 text-lg h-[100vh]">
-        <h3 className="text-center text-3xl mb-8">Services</h3>
-        <div className="flex space-x-4 w-[90%] mx-auto">
-          <div className="text-center px-4">
-            <AiOutlineComment size={145} className="mx-auto" />
-            <h2 className="text-2xl my-4">Sewing Community</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Doloremque magnam reiciendis.
-            </p>
-          </div>
-          <div className="text-center px-4">
-            <GiClothes size={145} className="mx-auto" />
-
-            <h2 className="text-2xl my-4">Clothing Boutiques</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Doloremque magnam reiciendis.
-            </p>
-          </div>
-          <div className="text-center px-4">
-            <GiTeacher size={145} className="mx-auto" />
-            <h2 className="text-2xl my-4">Training & Consulting</h2>
-            <p>
-              Lorem ipsuím, dolor sit amet consectetur adipisicing elit.
-              Doloremque magnam reiciendis.
-            </p>
           </div>
         </div>
       </section>
