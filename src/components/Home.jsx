@@ -105,10 +105,10 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-200 dark:bg-gray-100 text-white py-40 text-md">
+      <section className="bg-gray-200 dark:bg-gray-100 text-white py-40 text-md h-screen">
         <div className="flex space-between w-[80%] absolute right-0">
-          <img src="/images/fashion4.jpg" alt="" className="w-[40rem] h-64" />
-          <div className="w-[40%] space-y-8 bg-black py-16 px-32">
+          <img src="/images/suit.png" alt="" className="w-[50%] h-full" />
+          <div className="w-[50%] space-y-8 bg-black py-16 px-24">
             <h3 className="text-xl font-bold">This is an heading</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
@@ -125,7 +125,7 @@ const Home = () => {
       </section>
 
       <section
-        className="mt-10 pt-5 h-full bg-gray-900 md:mt-[20rem]"
+        className="pt-5 h-full bg-gray-900"
         style={{ backgroundImage: `url(images/bgfashion.png)` }}
         id="about"
       >
