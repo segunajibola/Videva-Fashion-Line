@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import { useEffect, useState } from "react";
-import ClipLoader from "react-spinners/ClipLoader";
+import PacmanLoader from "react-spinners/PacmanLoader";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -20,22 +20,22 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 3000);
   }, []);
 
   return loading ? (
     <div className="flex justify-center items-center w-screen h-screen">
-      <ClipLoader
+      <PacmanLoader
       color={"#161414"}
       loading={loading}
-      size={150}
+      size={30}
       aria-label="Loading Spinner"
       data-testid="loader"
     />
     </div>
     
   ) : (
-    <div className={`overflow-hidden ${darkMode ? "dark" : ""}`}>
+    <div className={`overflow-hidden transition ease-in-out${darkMode ? "dark" : ""}`}>
       <Router>
         <Navbar darkMode={darkMode} handleMode={handleMode} />
         <Routes>

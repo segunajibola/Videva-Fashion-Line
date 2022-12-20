@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaMoon, FaLightbulb, FaBars, FaTimes } from "react-icons/fa";
 // import { IoIosArrowDown } from "react-icons/io";
 import Logo from "../assets/navbar/logo.jpg";
@@ -7,9 +7,17 @@ import { Link } from "react-router-dom";
 const Navbar = ({ handleMode, darkMode }) => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  }, []);
 
-  return (
-    <div className="fixed z-20 w-full h-[80px] flex justify-between items-center px-4 bg-gray-900 dark:bg-gray-100 text-gray-300 dark:text-gray-800">
+  return loading ? ( "" )
+      : (
+    <div className="animate-bounce transition ease-in-out duration-900 delay-100 fixed z-20 w-full h-[80px] flex justify-between items-center px-4 bg-gray-900 dark:bg-gray-100 text-gray-300 dark:text-gray-800">
       {/* menu */}
       <ul className="hidden md:flex space-x-10 text-lg tracking-wide mx-auto">
         <li className="cursor-pointer my-3">
