@@ -132,8 +132,8 @@ const Home = () => {
       </section>
 
       <section className="bg-gray-900 dark:bg-gray-100 text-white p-20 text-lg h-[100vh]">
-        <h3 className="text-center text-3xl mb-4">Services</h3>
-        <div className="flex space-x-4">
+        <h3 className="text-center text-3xl mb-8">Services</h3>
+        <div className="flex space-x-4 w-[90%] mx-auto">
           <div className="text-center">
             <h2 className="text-2xl my-4">Sewing Community</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque magnam reiciendis.</p>
