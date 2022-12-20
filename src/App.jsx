@@ -1,15 +1,41 @@
-import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import { useEffect, useState } from "react";
+import ClipLoader from "react-spinners/ClipLoader";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
   const handleMode = () => {
     setDarkMode(!darkMode);
   };
+  const spin = {
+    textAlign: "center",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  };
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+  }, []);
 
-  return (
+  return loading ? (
+    <div className="flex text-yellow-500 justify-center items-center w-screen h-screen">
+      <ClipLoader
+      color={"#36d7b7"}
+      loading={loading}
+      className="text-yellow-500"
+      size={150}
+      aria-label="Loading Spinner"
+      data-testid="loader"
+    />
+    </div>
+    
+  ) : (
     <div className={`overflow-hidden ${darkMode ? "dark" : ""}`}>
       <Router>
         <Navbar darkMode={darkMode} handleMode={handleMode} />

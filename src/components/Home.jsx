@@ -108,17 +108,50 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-200 dark:bg-gray-100 text-white py-28 text-lg h-[100vh]">
-        <div className="flex w-[70%] mx-auto">
+      <section className="bg-gray-200 dark:bg-gray-100 text-gray-900 px-20 py-24 text-lg">
+        <h3 className="text-center text-3xl mb-12">Services</h3>
+        <div className="flex space-x-4 w-[90%] mx-auto">
+          <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
+            <AiOutlineComment
+              size={145}
+              className="mx-auto hover:animate-bounce duration-100 delay-100 ease-in-out"
+            />
+            <h2 className="text-2xl my-4">Sewing Community</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Doloremque magnam reiciendis.
+            </p>
+          </div>
+          <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
+            <GiClothes size={145} className="mx-auto hover:animate-bounce duration-100 delay-100 ease-in-out" />
+            <h2 className="text-2xl my-4">Clothing Boutiques</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Doloremque magnam reiciendis.
+            </p>
+          </div>
+          <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
+            <GiTeacher size={145} className="mx-auto hover:animate-bounce duration-100 delay-100 ease-in-out" />
+            <h2 className="text-2xl my-4">Training & Consulting</h2>
+            <p>
+              Lorem ipsuím, dolor sit amet consectetur adipisicing elit.
+              Doloremque magnam reiciendis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-gray-900 dark:bg-gray-100 text-white pt-16 text-lg h-[90vh]">
+        <div className="flex w-[70%] h-[40l] m-auto">
           <div className="w-[50%] h-[20%] my-auto z-10">
             <img
               src="/images/suit.png"
               alt=""
-              className="ml-[240px] h-[450px] w-[80%] z-10"
+              className="ml-[210px] h-[450px] w-[80%] z-10"
             />
           </div>
 
-          <div className="w-[50%] space-y-8 bg-black py-16 px-20">
+          <div className="w-[50%] space-y-8 bg-black py-16 px-12">
             <h3 className="text-xl font-bold">This is an heading</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
@@ -130,37 +163,6 @@ const Home = () => {
               <button className="p-4 bg-gray-700">Customize your dress</button>
               <button>Make an appointment</button>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-gray-900 dark:bg-gray-100 text-white p-20 text-lg h-[100vh]">
-        <h3 className="text-center text-3xl mb-8">Services</h3>
-        <div className="flex space-x-4 w-[90%] mx-auto">
-          <div className="text-center">
-            <AiOutlineComment size={145} className="text-center mx-auto" />
-            <h2 className="text-2xl my-4">Sewing Community</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Doloremque magnam reiciendis.
-            </p>
-          </div>
-          <div className="text-center">
-            <GiClothes size={145} className="text-center mx-auto" />
-
-            <h2 className="text-2xl my-4">Clothing Boutiques</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Doloremque magnam reiciendis.
-            </p>
-          </div>
-          <div className="text-center">
-            <GiTeacher size={145} className="text-center mx-auto" />
-            <h2 className="text-2xl my-4">Training & Consulting</h2>
-            <p>
-              Lorem ipsuím, dolor sit amet consectetur adipisicing elit.
-              Doloremque magnam reiciendis.
-            </p>
           </div>
         </div>
       </section>
