@@ -1,4 +1,7 @@
 import React from "react";
+import { AiOutlineComment } from "react-icons/ai";
+import { GiClothes } from "react-icons/gi";
+import { GiTeacher } from "react-icons/gi";
 
 const Home = () => {
   return (
@@ -135,16 +138,29 @@ const Home = () => {
         <h3 className="text-center text-3xl mb-8">Services</h3>
         <div className="flex space-x-4 w-[90%] mx-auto">
           <div className="text-center">
+            <AiOutlineComment size={145} className="text-center mx-auto" />
             <h2 className="text-2xl my-4">Sewing Community</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque magnam reiciendis.</p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Doloremque magnam reiciendis.
+            </p>
           </div>
           <div className="text-center">
+            <GiClothes size={145} className="text-center mx-auto" />
+
             <h2 className="text-2xl my-4">Clothing Boutiques</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque magnam reiciendis.</p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Doloremque magnam reiciendis.
+            </p>
           </div>
           <div className="text-center">
+            <GiTeacher size={145} className="text-center mx-auto" />
             <h2 className="text-2xl my-4">Training & Consulting</h2>
-            <p>Lorem ipsuím, dolor sit amet consectetur adipisicing elit. Doloremque magnam reiciendis.</p>
+            <p>
+              Lorem ipsuím, dolor sit amet consectetur adipisicing elit.
+              Doloremque magnam reiciendis.
+            </p>
           </div>
         </div>
       </section>
