@@ -132,19 +132,19 @@ const Home = () => {
       </section>
 
       <section className="bg-gray-900 dark:bg-gray-100 text-white p-20 text-lg h-[100vh]">
-        <h3 className="text-center text-xl">Services</h3>
-        <div className="flex">
-          <div>
-            <h2>Sewing Community</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque magnam reiciendis ipsam repellat accusamus vitae.</p>
+        <h3 className="text-center text-3xl mb-4">Services</h3>
+        <div className="flex space-x-4">
+          <div className="text-center">
+            <h2 className="text-2xl my-4">Sewing Community</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque magnam reiciendis.</p>
           </div>
-          <div>
-            <h2>Clothing Boutiques</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque magnam reiciendis ipsam repellat accusamus vitae.</p>
+          <div className="text-center">
+            <h2 className="text-2xl my-4">Clothing Boutiques</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque magnam reiciendis.</p>
           </div>
-          <div>
-            <h2>Training & Consulting</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque magnam reiciendis ipsam repellat accusamus vitae.</p>
+          <div className="text-center">
+            <h2 className="text-2xl my-4">Training & Consulting</h2>
+            <p>Lorem ipsuím, dolor sit amet consectetur adipisicing elit. Doloremque magnam reiciendis.</p>
           </div>
         </div>
       </section>
