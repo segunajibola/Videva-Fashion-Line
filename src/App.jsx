@@ -9,33 +9,32 @@ function App() {
   const handleMode = () => {
     setDarkMode(!darkMode);
   };
-  // const styles = {
-  //   textAlign: "center",
-  //   display: "flex",
-  //   justifyContent: "center",
-  //   alignItems: "center"
-  // }
+  const spin = {
+    textAlign: "center",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  };
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
-      setLoading(false)
+      setLoading(false);
     }, 5000);
   }, []);
 
-  return (
-    (
-      loading ?
-      <ClipLoader
-        color={"#36d7b7"}
-        loading={loading}
-        // style={styles}
-        size={150}
-        aria-label="Loading Spinner"
-        data-testid="loader"
-      />
-      :
-      <div className={`overflow-hidden ${darkMode ? "dark" : ""}`}>
+  return loading ? (
+    <ClipLoader
+      color={"#36d7b7"}
+      loading={loading}
+      // style={spin}
+      className="flex text-center justify-center align-items-center"
+      size={150}
+      aria-label="Loading Spinner"
+      data-testid="loader"
+    />
+  ) : (
+    <div className={`overflow-hidden ${darkMode ? "dark" : ""}`}>
       <Router>
         <Navbar darkMode={darkMode} handleMode={handleMode} />
         <Routes>
@@ -43,8 +42,6 @@ function App() {
         </Routes>
       </Router>
     </div>
-    )
-    
   );
 }
 
