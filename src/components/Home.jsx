@@ -106,9 +106,9 @@ const Home = () => {
       </section>
 
       <section className="bg-gray-200 dark:bg-gray-100 text-white py-40 text-md h-[112vh]">
-        <div className="flex space-between w-[80%] absolute right-0">
-          <div className="w-[50%] h-full">
-            <img src="/images/suit.png" alt="" className="w-[50%] h-full" />
+        <div className="flex w-[80%] mx-auto">
+          <div className="w-[50%] z-10">
+            <img src="/images/suit.png" alt="" className="ml-[250px] w-full h-[50%] my-auto z-10" />
           </div>
           
           <div className="w-[50%] space-y-8 bg-black py-16 px-24">
