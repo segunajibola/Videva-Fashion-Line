@@ -131,17 +131,20 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
-        <h3>Services</h3>
-        <div>
+      <section className="bg-gray-900 dark:bg-gray-100 text-white p-20 text-lg h-[100vh]">
+        <h3 className="text-center text-xl">Services</h3>
+        <div className="flex">
           <div>
             <h2>Sewing Community</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque magnam reiciendis ipsam repellat accusamus vitae.</p>
           </div>
           <div>
             <h2>Clothing Boutiques</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque magnam reiciendis ipsam repellat accusamus vitae.</p>
           </div>
           <div>
             <h2>Training & Consulting</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque magnam reiciendis ipsam repellat accusamus vitae.</p>
           </div>
         </div>
       </section>
