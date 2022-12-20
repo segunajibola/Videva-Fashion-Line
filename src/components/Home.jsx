@@ -106,7 +106,7 @@ const Home = () => {
       </section>
 
       <section className="bg-gray-200 dark:bg-gray-100 text-white py-40 text-md">
-        <div className="flex space-between">
+        <div className="flex space-between w-[80%] absolute right-0">
           <img src="/images/fashion4.jpg" alt="" className="w-[40rem] h-64" />
           <div className="w-[40%] space-y-8 bg-black py-16 px-32">
             <h3 className="text-xl font-bold">This is an heading</h3>
