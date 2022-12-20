@@ -24,10 +24,11 @@ function App() {
   }, []);
 
   return loading ? (
-    <div className="flex text-red-100 justify-center items-center w-screen h-screen">
+    <div className="flex text-yellow-500 justify-center items-center w-screen h-screen">
       <ClipLoader
-      // color={"#36d7b7"}
+      color={"#36d7b7"}
       loading={loading}
+      className="text-yellow-500"
       size={150}
       aria-label="Loading Spinner"
       data-testid="loader"
