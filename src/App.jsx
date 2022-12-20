@@ -28,7 +28,7 @@ function App() {
       color={"#36d7b7"}
       loading={loading}
       // style={spin}
-      className="flex text-center justify-center align-items-center"
+      className="flex w-[30px] mx-auto justify-center items-center h-screen"
       size={150}
       aria-label="Loading Spinner"
       data-testid="loader"
