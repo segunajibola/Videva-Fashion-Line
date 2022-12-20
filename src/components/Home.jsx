@@ -41,9 +41,9 @@ const Home = () => {
             </div>
             <div className="flex flex-shrink-0 justify-center mt-5 items-center w-full md:w-96">
               <img
-                src="images/fashionplain.jpg"
+                src="images/homeFashion.png"
                 alt="Responsive components"
-                className="w-[800px] h-[500px]"
+                className="w-[200rem] h-[500px] border-4"
               />
             </div>
           </div>
