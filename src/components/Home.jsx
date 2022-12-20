@@ -105,20 +105,22 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-900 dark:bg-gray-100 text-white px-10 py-40 text-xl">
-        <div className="flex bord er-4 flex-row-reverse">
-          <div className="w-[50%] space-x-6">
-            <h3>This is an heading</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-            illum laboriosam nesciunt odio esse veritatis sit quod nostrum nam
-            quae amet atque architecto illo eum ullam alias eos rem earum.
-          </p>
-          <p>$1000</p>
-          <button>Customize your dress</button>
-          <button>Make an appointment</button>
+      <section className="bg-gray-200 dark:bg-gray-100 text-white py-40 text-md">
+        <div className="flex space-between">
+          <img src="/images/fashion4.jpg" alt="" className="w-[40rem] h-64" />
+          <div className="w-[40%] space-y-8 bg-black py-16 px-32">
+            <h3 className="text-xl font-bold">This is an heading</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+              illum laboriosam nesciunt odio esse veritatis sit quod nostrum nam
+              quae amet atque architecto illo eum ullam alias eos rem earum.
+            </p>
+            <p className="pb-16">$1000</p>
+            <div className="flex space-x-6">
+              <button className="p-4 bg-gray-900">Customize your dress</button>
+              <button>Make an appointment</button>
+            </div>
           </div>
-          
         </div>
       </section>
 
