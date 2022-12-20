@@ -17,7 +17,7 @@ const Navbar = ({ handleMode, darkMode }) => {
 
   return loading ? ( "" )
       : (
-    <div className="animate-bounce transition ease-in-out duration-900 delay-100 fixed z-20 w-full h-[80px] flex justify-between items-center px-4 bg-gray-900 dark:bg-gray-100 text-gray-300 dark:text-gray-800">
+    <div className="animate-fade-in-down fixed z-20 w-full h-[80px] flex justify-between items-center px-4 bg-gray-900 dark:bg-gray-100 text-gray-300 dark:text-gray-800">
       {/* menu */}
       <ul className="hidden md:flex space-x-10 text-lg tracking-wide mx-auto">
         <li className="cursor-pointer my-3">
