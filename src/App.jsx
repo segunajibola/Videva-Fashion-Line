@@ -24,15 +24,16 @@ function App() {
   }, []);
 
   return loading ? (
-    <ClipLoader
+    <div className="flex text-red-100 justify-center items-center w-screen h-screen">
+      <ClipLoader
       // color={"#36d7b7"}
       loading={loading}
-      // style={spin}
-      className="flex w-screen m-auto justify-center items-center h-screen border-4 border-red-500"
       size={150}
       aria-label="Loading Spinner"
       data-testid="loader"
     />
+    </div>
+    
   ) : (
     <div className={`overflow-hidden ${darkMode ? "dark" : ""}`}>
       <Router>
