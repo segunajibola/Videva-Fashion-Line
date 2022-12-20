@@ -25,10 +25,10 @@ function App() {
 
   return loading ? (
     <ClipLoader
-      color={"#36d7b7"}
+      // color={"#36d7b7"}
       loading={loading}
       // style={spin}
-      className="flex w-[10px] m-[100px] justify-center items-center h-screen bg-gray-500 border-4 border-red-500"
+      className="flex w-[1000px] m-[100px] justify-center items-center h-screen border-4 border-red-500"
       size={150}
       aria-label="Loading Spinner"
       data-testid="loader"
