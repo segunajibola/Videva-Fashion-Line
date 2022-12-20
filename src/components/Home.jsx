@@ -105,9 +105,12 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-200 dark:bg-gray-100 text-white py-40 text-md h-screen">
+      <section className="bg-gray-200 dark:bg-gray-100 text-white py-40 text-md h-[112vh]">
         <div className="flex space-between w-[80%] absolute right-0">
-          <img src="/images/suit.png" alt="" className="w-[50%] h-full" />
+          <div className="w-[50%] h-full">
+            <img src="/images/suit.png" alt="" className="w-[50%] h-full" />
+          </div>
+          
           <div className="w-[50%] space-y-8 bg-black py-16 px-24">
             <h3 className="text-xl font-bold">This is an heading</h3>
             <p>
