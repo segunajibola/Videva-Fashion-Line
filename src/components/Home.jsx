@@ -105,17 +105,17 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-200 dark:bg-gray-100 text-white py-40 text-md h-[112vh]">
-        <div className="flex w-[80%] mx-auto">
+      <section className="bg-gray-200 dark:bg-gray-100 text-white py-28 text-lg h-[100vh]">
+        <div className="flex w-[70%] mx-auto">
           <div className="w-[50%] h-[20%] my-auto z-10">
             <img
               src="/images/suit.png"
               alt=""
-              className="ml-[300px] h-[450px] w-[80%] z-10"
+              className="ml-[240px] h-[450px] w-[80%] z-10"
             />
           </div>
 
-          <div className="w-[50%] space-y-8 bg-black py-16 px-24">
+          <div className="w-[50%] space-y-8 bg-black py-16 px-20">
             <h3 className="text-xl font-bold">This is an heading</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
@@ -124,9 +124,24 @@ const Home = () => {
             </p>
             <p className="pb-16">$1000</p>
             <div className="flex space-x-6">
-              <button className="p-4 bg-gray-900">Customize your dress</button>
+              <button className="p-4 bg-gray-700">Customize your dress</button>
               <button>Make an appointment</button>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Services</h3>
+        <div>
+          <div>
+            <h2>Sewing Community</h2>
+          </div>
+          <div>
+            <h2>Clothing Boutiques</h2>
+          </div>
+          <div>
+            <h2>Training & Consulting</h2>
           </div>
         </div>
       </section>
