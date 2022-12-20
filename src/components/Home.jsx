@@ -108,8 +108,8 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-200 dark:bg-gray-100 text-white py-28 text-lg h-[90vh] border-4 border-red-500">
-        <div className="flex w-[70%] m-auto border-4 border-red-500">
+      <section className="bg-gray-200 dark:bg-gray-100 text-white py-auto text-lg h-[90vh] border-4 border-red-500">
+        <div className="flex w-[70%] h-[40%] m-auto border-4 border-red-500">
           <div className="w-[50%] h-[20%] my-auto z-10">
             <img
               src="/images/suit.png"
