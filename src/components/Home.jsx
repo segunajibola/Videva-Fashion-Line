@@ -96,7 +96,7 @@ const Home = () => {
       <section className="bg-gray-900 dark:bg-gray-100 text-white px-10 py-40 text-xl">
         <div className="flex space-x-[10rem] md:mt-[20rem]">
           <h3>About</h3>
-          <p>
+          <p className="text-lg">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint est
             nam totam ullam fugiat, iusto quidem repudiandae suscipit odit
             accusantium dolore, beatae cumque, maxime tempore autem corrupti
@@ -106,8 +106,9 @@ const Home = () => {
       </section>
 
       <section className="bg-gray-900 dark:bg-gray-100 text-white px-10 py-40 text-xl">
-        <div className="flex flex-right w-[50%]">
-          <h3>This is an heading</h3>
+        <div className="flex bord er-4 flex-row-reverse">
+          <div className="w-[50%] space-x-6">
+            <h3>This is an heading</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
             illum laboriosam nesciunt odio esse veritatis sit quod nostrum nam
@@ -116,11 +117,13 @@ const Home = () => {
           <p>$1000</p>
           <button>Customize your dress</button>
           <button>Make an appointment</button>
+          </div>
+          
         </div>
       </section>
 
       <section
-        className="mt-10 pt-5 h-full bg-gray-900 mt-[20rem]"
+        className="mt-10 pt-5 h-full bg-gray-900 md:mt-[20rem]"
         style={{ backgroundImage: `url(images/bgfashion.png)` }}
         id="about"
       >
