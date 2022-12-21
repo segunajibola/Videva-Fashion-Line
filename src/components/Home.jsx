@@ -198,9 +198,7 @@ const Home = () => {
           <div className="w-[50%] space-y-8 bg-black py-16 px-12">
             <h3 className="text-xl font-bold">This is an heading</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-              illum laboriosam nesciunt odio esse veritatis sit quod nostrum nam
-              quae amet atque architecto illo eum ullam alias eos rem earum.
+            In addition to helping you look good while reading or playing games on your phone, Moda is also there when you need advice on what to wear in the morning—or any other time of day! Our stylists spend hours working on each garment, ensuring they'll fit perfectly no matter what size or shape you are. And since we know how hard it can be finding things that fit well (even if they cost less), we also offer FREE alterations on all orders over $50!
             </p>
             <p className="pb-16">$1000</p>
             <div className="flex space-x-6">
