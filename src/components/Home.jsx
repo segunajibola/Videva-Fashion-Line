@@ -54,24 +54,28 @@ const Home = () => {
 
       <section className="mt-[45rem] bg-gray-900 dark:bg-gray-100 text-white p-8 text-2xl z-10 relative">
         <div className="w-[70vw] mx-auto z-10">
-          <h3 className="text-center text-3xl tracking-widest my-2">Love matching colours?</h3>
-        <div className="grid grid-cols-2 gap-2 z-10 w-[85%] mx-auto border-4 h-[80vh] py-8">
-          <div className="mx-auto">
-            <img
-              src="images/img5.jpg"
-              alt=""
-              className="w-[90%] h-[100%] mx-auto"
-            />
+          <h3 className="text-center text-3xl tracking-widest my-2">
+            Love matching colours?
+          </h3>
+          <div className="grid grid-cols-2 gap-2 z-10 w-[85%] mx-auto border-4 h-[80vh] py-8">
+            <div className="mx-auto">
+              <img
+                src="images/img5.jpg"
+                alt=""
+                className="w-[90%] h-[100%] mx-auto"
+              />
+            </div>
+            <div className="mx-auto">
+              <img
+                src="images/img6.jpg"
+                alt=""
+                className="w-[90%] mx-auto h-[100%]"
+              />
+            </div>
           </div>
-          <div className="mx-auto">
-            <img
-              src="images/img6.jpg"
-              alt=""
-              className="w-[90%] mx-auto h-[100%]"
-            />
-          </div>
-        </div>
-        <button className="flex rounded-md bg-[pink] p-2 w-[9rem] mx-auto my-3 text-gray-900 hover:scale-110 ease-in-out delay-100 duration-300">Order Now</button>
+          <button className="flex rounded-md bg-[pink] p-2 w-[9rem] mx-auto my-3 text-gray-900 hover:scale-110 ease-in-out delay-100 duration-300">
+            Order Now
+          </button>
         </div>
       </section>
 
@@ -79,20 +83,25 @@ const Home = () => {
         <div className="w-[70vw] mx-auto">
           <div className="grid grid-cols-4 grid-rows-2 gap-y-8 gap-x-4">
             <p className="col-start-1 col-span-3 text-demo1">
-              Our 
-              tempore reprehenderit corporis exercitationem, ut excepturi
-              eligendi porro? Sit quas labore hic illum corporis enim aliquid
-              excepturi Deleniti, dolore.
+              Moda provides comfortable, durable clothes that will last a
+              lifetime. Our products are made by artisans in the region of
+              Spain, a region that has long been known for its tradition of
+              quality clothing. Our garments are crafted using sustainable
+              materials and traditional techniques, making them an excellent
+              choice for people who want to support local economies while
+              looking good on the streets.
             </p>
             <div className="col-end-5 col-span-2 row-start-2">
               <h3 className="text-2xl mb-2">
                 Bringing innovation to the style
               </h3>
               <p className="text-xl">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
-                tenetur, at earum impedit odit repellat accusamus non debitis
-                aliquid vel recusandae excepturi reiciendis quia quam! In
-                veritatis corrupti et nam?
+                We believe that our clothing should be a reflection of your
+                unique self, so we've partnered with influencers,
+                who use our clothing in their daily lives and have
+                shared their stories of how wearing our product has helped them
+                feel more confident and empowered. We also work with designers to create new designs that reflect our values and
+                reflect the needs of our customers.
               </p>
             </div>
           </div>
