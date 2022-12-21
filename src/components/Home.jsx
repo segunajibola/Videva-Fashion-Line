@@ -195,6 +195,10 @@ const Home = () => {
             />
           </div>
 
+          <section>
+            
+          </section>
+
           <div className="w-[50%] space-y-8 bg-black py-16 px-12">
             <h3 className="text-xl font-bold">This is an heading</h3>
             <p>
