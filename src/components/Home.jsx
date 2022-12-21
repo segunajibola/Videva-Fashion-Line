@@ -97,34 +97,40 @@ const Home = () => {
               </h3>
               <p className="text-xl">
                 We believe that our clothing should be a reflection of your
-                unique self, so we've partnered with influencers,
-                who use our clothing in their daily lives and have
-                shared their stories of how wearing our product has helped them
-                feel more confident and empowered. We also work with designers to create new designs that reflect our values and
-                reflect the needs of our customers.
+                unique self, so we've partnered with influencers, who use our
+                clothing in their daily lives and have shared their stories of
+                how wearing our product has helped them feel more confident and
+                empowered. We also work with designers to create new designs
+                that reflect our values and reflect the needs of our customers.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <div className="bg-gray-900 dark:bg-gray-100 relative h-[70vh] w-[92vw] z-10">
+      <div className="bg-gray-900 dark:bg-gray-100 relative h-[120vh] w-[90vw] z-10 mx-auto">
         <img
-          src="/images/fashion4.jpg"
+          src="/images/corey.jpg"
           alt=""
-          className="w-[80%] left-10 ml-auto absolute top-10 h-[150%] inline"
+          className="w-auto left-10 ml-auto absolute top-10 h-[100%] inline"
         />
-        <div className="inline absolute text-gray-500 right-4 w-[15%]">
-          <h3 className="text-xl mb-2">Sattica Manasa</h3>
+        <div className="text-white w-[30rem] absolute top-[10rem] right-[10rem]">
+          <h3 className="text-xl mb-2">Picks of the day - Jeans</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quod
-            saepe repellat facere laborum voluptate debitis quia quidem omnis
-            minima sint aliquid, id magni qui repellendus autem fuga fugit
-            placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptates, ut molestias repellendus, cupiditate quaerat laudantium
-            architecto eum natus libero facere consequuntur? Facilis fuga illum
-            fugit unde culpa esse fugiat nulla!
+            Moda's jeans are as comfortable as they are stylish. They're made
+            with a selection of materials that provide both comfort and style,
+            including soft cotton and linen blend fabrics, durable denim, and
+            stretchy spandex. These jeans are handmade by artisans in the region
+            of Moda's headquarters, so you can be sure that each pair is made
+            with the same care as the last. The company also uses sustainable
+            materials whenever possible, including organic vegetable dyes and
+            recycled polyester fabrics. Moda has built its brand around quality
+            and value—it wants to make sure that every customer feels
+            comfortable and satisfied with their purchase from Moda.
           </p>
+
+          {/* 
+          Our mission is simple: to create products that make you feel comfortable, fulfilled, and confident about your appearance. If you're interested in learning more about us or buying some of our great products, please visit us at [website address]. */}
         </div>
       </div>
 
