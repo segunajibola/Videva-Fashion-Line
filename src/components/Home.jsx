@@ -185,6 +185,17 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="bg-gray-900 dark:bg-gray-100 relative h-[120vh] w-[90vw] z-10 mx-auto p-24">
+              <div className="grid grid-cols-5 gap-3">
+                <p className="text-xl">We create amazing custom wears in different varieties. Look through our gallery and upgrade your wardrope today!</p>
+                <img src="/images/col1.jpg" alt="" />        
+                <img src="/images/col2.jpg" alt="" />        
+                <img src="/images/col3.jpg" alt="" />        
+                <img src="/images/col4.jpg" alt="" />        
+                <img src="/images/col5.jpg" alt="" />        
+              </div>
+          </section>
+
       <section className="bg-gray-900 dark:bg-gray-100 text-white pt-16 text-lg h-[90vh] z-10 relative">
         <div className="flex w-[70%] h-[40l] m-auto">
           <div className="w-[50%] h-[20%] my-auto z-10">
@@ -194,18 +205,6 @@ const Home = () => {
               className="ml-[210px] h-[450px] w-[80%] z-10"
             />
           </div>
-
-          <section className="bg-gray-900 dark:bg-gray-100 relative h-[120vh] w-[90vw] z-10 mx-auto">
-              <div className="grid grid-cols-5 gap-3">
-                <p>We create amazing custom wears in different varieties. Look through our gallery and upgrade your wardrope today!</p>
-                <img src="" alt="" />        
-                <img src="" alt="" />        
-                <img src="" alt="" />        
-                <img src="" alt="" />        
-                <img src="" alt="" />        
-              </div>
-          </section>
-
           <div className="w-[50%] space-y-8 bg-black py-16 px-12">
             <h3 className="text-xl font-bold">This is an heading</h3>
             <p>
