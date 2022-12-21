@@ -6,12 +6,12 @@ import { GiTeacher } from "react-icons/gi";
 const Home = () => {
   return (
     <>
-      <header className="pt-4 md:pt-0 px-2 z-10 md:flex min-h-full items-center justify-between w-full bg-gray-900 dark:bg-gray-100 text-white">
+      <header className="pt-4 md:pt-0 px-2 z-10 md:flex min-h-full items-center justify-between w-full bg-gray-900 bg-fixed dark:bg-gray-100 text-white">
         <div className="w-[90vw] mx-auto">
-          <div className="md:grid grid-cols-5 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-10 md:h-[95vh] mx-auto border-4">
-            <div className="grid col-span-2">
+          <div className="md:grid grid-cols-5 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-16 md:h-[95vh] mx-auto borde r-4">
+            <div className="animate-fade-in-right grid col-span-2">
               <div className="flex flex-col pt-1 space-y-12 md:mt-15 my-auto">
-                <h1 className="text-4xl font-bold mb-4">VIDEVA FASHION LINE</h1>
+                <h1 className="text-4xl font-bold mb-2">VIDEVA FASHION LINE</h1>
                 <p className="text-2xl">
                   Turning you into a fashionista! Let's bring your design to
                   life with fabrics.
@@ -41,18 +41,23 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="grid col-span-3 justify-center mt-5 items-center w-full">
+            <div className="animate-fade-in-left grid col-span-3 justify-center mt-5 items-center w-full">
+              <img
+                src="images/vector.png"
+                alt="Responsive components"
+                className="w-full md:w-[40rem] h-[50rem] -mt-64 borde r-4"
+              />
               <img
                 src="images/homeFashion.png"
                 alt="Responsive components"
-                className="w-full md:w-[40rem] h-[40rem] -mt-20 border-4"
+                className="absolute w-full md:w-[40rem] h-[50rem] -mt-64 borde r-4"
               />
             </div>
           </div>
         </div>
       </header>
 
-      <section className="bg-gray-900 dark:bg-gray-100 text-white p-10 text-2xl">
+      <section className="bg-gray-800 dark:bg-gray-100 text-white p-10 text-2xl">
         <div className="w-[70vw] mx-auto">
           <div className="grid grid-cols-4 grid-rows-2 gap-y-8 gap-x-4">
             <p className="col-start-1 col-span-3 text-demo1">
