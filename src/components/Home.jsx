@@ -16,7 +16,7 @@ const Home = () => {
                   Moda in Spanish - Fashion in English.
                 </p>
                 <p className="text-2xl">
-                Fashion, trend, style, vogue - everything here.
+                  Fashion, trend, style, vogue - everything here.
                 </p>
                 <a
                   href="#contact"
@@ -52,11 +52,23 @@ const Home = () => {
         </div>
       </header>
 
-      <section className="mt-[10rem] bg-gray-800 dark:bg-gray-100 text-white p-10 text-2xl z-10">
-          <div className="grid">
-            <img src="images/img1.jpg" alt="" className="w-[10rem] h-64" />
-            <img src="images/img2.jpg" alt="" className="w-[10rem] h-64"/>
+      <section className="mt-[10rem] bg-gray-800 dark:bg-gray-100 text-white p-10 text-2xl z-10 relative h-[80vh]">
+        <div className="grid grid-cols-2 gap-2 z-10 w-[80%] mx-auto border-4 h-[70vh]">
+          <div className="mx-auto border-4">
+            <img
+              src="images/img2.jpg"
+              alt=""
+              className="absolute z-10 w-auto h-[80%]"
+            />
           </div>
+          <div className="mx-auto">
+            <img
+              src="images/img1.jpg"
+              alt=""
+              className="absolute z-10 w-auto h-[80%]"
+            />
+          </div>
+        </div>
       </section>
 
       <section className="bg-gray-800 dark:bg-gray-100 text-white p-10 text-2xl z-10">
