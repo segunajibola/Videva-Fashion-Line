@@ -31,7 +31,7 @@ const Home = () => {
                   </div>
                   <div className="flex flex-col pl-5">
                     <p>15+</p>
-                    <p>Shop Outlets</p>
+                    <p>Boutique</p>
                   </div>
                 </div>
               </div>
