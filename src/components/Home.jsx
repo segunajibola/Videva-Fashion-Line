@@ -17,9 +17,10 @@ const Home = () => {
                 </p>
                 <p className="text-2xl">
                   Fashion, trend, style, vogue - everything here. Look, we know
-                  it's hard to find the perfect pair of pants that fits
-                  your body. You're not alone—we've all been there! But we want
-                  to make sure you get the right fit, so we created Moda for people like you.
+                  it's hard to find the perfect pair of pants that fits your
+                  body. You're not alone—we've all been there! But we want to
+                  make sure you get the right fit, so we created Moda for people
+                  like you.
                 </p>
                 <a
                   href="#contact"
@@ -186,19 +187,62 @@ const Home = () => {
       </section>
 
       <section className="bg-gray-900 dark:bg-gray-100 relative h-[120nvh] w-[90vw] z-10 mx-auto p-24">
-              <div className="grid grid-cols-6 grid-rows-2 grid-flow-col gap-3 w-[90%] mx-auto h-[100vh]">
-                <p className="text-xl col-span-1 text-white">We create amazing custom wears in different varieties. Look through our gallery and upgrade your wardrope today!</p>
-                <img src="/images/col2.jpg" alt="" className="col-span-2 overflow-hidden border-4 h-[50%] w-max"/>
-                <img src="/images/col5.jpg" alt="" className="col-span-2 row-span-2 overflow-hidden border-4 h-[75%] w-max"/>
-                
-                <img src="/images/col1.jpg" alt="" className="col-span-3 overflow-hidden border-4 h-[50%] w-max"/>
+        <div className="grid grid-cols-6 grid-rows-3 grid-flow-col gap-3 w-[90%] mx-auto h-[100vh] border-4 p-2">
+          <p className="text-xl col-span-1 text-white">
+            We create amazing custom wears in different varieties. Look through
+            our gallery and upgrade your wardrope today!
+          </p>
 
-                <img src="/images/col3.jpg" alt="" className="col-span-1 overflow-hidden border-4 h-[50%] w-max"/>        
-                <img src="/images/col4.jpg" alt="" className="col-span-1 overflow-hidden border-4 h-[50%] w-max"/>        
-                        
-                <img src="/images/col6.jpg" alt="" className="col-span-2 overflow-hidden border-4 h-[50%] w-max"/> 
-              </div>
-          </section>
+          <div className="col-start-2 col-span-2">
+            <img
+              src="/images/col2.jpg"
+              alt=""
+              className="fh-[100%] w-max"
+            />
+          </div>
+
+          <div className="col-start-4 col-span-3 row-span-2">
+            <img
+              src="/images/col5.jpg"
+              alt=""
+              className="fh-[75%] w-max"
+            />
+          </div>
+
+          <div className="row-start-2 col-start-1 col-span-2 h-[9 0%] ">
+            <img
+              src="/images/col1.jpg"
+              alt=""
+              className="h-[90 %] w-max"
+            />
+          </div>
+          
+          <div className="row-start-2 col-start-3 col-span-1">
+            <img
+            src="/images/col3.jpg"
+            alt=""
+            className="gh-[50%] w-max"
+          />
+          </div>
+          
+          <div className="row-start-3 col-start-3 col-span-1">
+            <img
+            src="/images/col4.jpg"
+            alt=""
+            className="fh-[50%] w-max"
+          />
+          </div>
+          
+          <div className="row-start-3 col-end-7 col-span-3 justify-self-end place-self-end">
+            {/* <img
+            src="/images/col6h.jpg"
+            alt=""
+            className="fh-[50%] w-max"
+          /> */}
+          <p className="text-white text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nam praesentium nemo eligendi lkwjhuiwebfwuef wwubfwubfuwef wefwufhwbfuw.</p>
+          </div>
+        </div>
+      </section>
 
       <section className="bg-gray-900 dark:bg-gray-100 text-white pt-16 text-lg h-[90vh] z-10 relative">
         <div className="flex w-[70%] h-[40l] m-auto">
@@ -212,7 +256,13 @@ const Home = () => {
           <div className="w-[50%] space-y-8 bg-black py-16 px-12">
             <h3 className="text-xl font-bold">This is an heading</h3>
             <p>
-            In addition to helping you look good while reading or playing games on your phone, Moda is also there when you need advice on what to wear in the morning—or any other time of day! Our stylists spend hours working on each garment, ensuring they'll fit perfectly no matter what size or shape you are. And since we know how hard it can be finding things that fit well (even if they cost less), we also offer FREE alterations on all orders over $50!
+              In addition to helping you look good while reading or playing
+              games on your phone, Moda is also there when you need advice on
+              what to wear in the morning—or any other time of day! Our stylists
+              spend hours working on each garment, ensuring they'll fit
+              perfectly no matter what size or shape you are. And since we know
+              how hard it can be finding things that fit well (even if they cost
+              less), we also offer FREE alterations on all orders over $50!
             </p>
             <p className="pb-16">$1000</p>
             <div className="flex space-x-6">
