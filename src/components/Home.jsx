@@ -6,7 +6,7 @@ import { GiTeacher } from "react-icons/gi";
 const Home = () => {
   return (
     <>
-      <header className="fixed pt-4 md:pt-0 px-2 md:flex min-h-full items-center justify-between w-full bg-gray-900 bg-fixed bg-center bg-cover dark:bg-gray-100 text-white">
+      <header className="fixed pt-4 md:pt-0 px-2 md:flex min-h-full items-center justify-between w-full bg-gray-900 bg-center dark:bg-gray-100 text-white">
         <div className="w-[90vw] mx-auto">
           <div className="md:grid grid-cols-5 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-16 md:h-[95vh] mx-auto borde r-4">
             <div className="animate-fade-in-right grid col-span-2">
@@ -52,32 +52,34 @@ const Home = () => {
         </div>
       </header>
 
-      <section className="mt-[10rem] bg-gray-800 dark:bg-gray-100 text-white p-10 text-2xl z-10 relative h-[80vh]">
-        <div className="grid grid-cols-2 gap-2 z-10 w-[80%] mx-auto border-4 h-[70vh]">
-          <div className="mx-auto border-4">
+      <section className="mt-[45rem] bg-gray-900 dark:bg-gray-100 text-white p-8 text-2xl z-10 relative">
+        <div className="w-[70vw] mx-auto z-10">
+          <h3 className="text-center text-3xl tracking-widest my-2">Love matching colours?</h3>
+        <div className="grid grid-cols-2 gap-2 z-10 w-[85%] mx-auto border-4 h-[80vh] py-8">
+          <div className="mx-auto">
             <img
-              src="images/img2.jpg"
+              src="images/img5.jpg"
               alt=""
-              className="absolute z-10 w-auto h-[80%]"
+              className="w-[90%] h-[100%] mx-auto"
             />
           </div>
           <div className="mx-auto">
             <img
-              src="images/img1.jpg"
+              src="images/img6.jpg"
               alt=""
-              className="absolute z-10 w-auto h-[80%]"
+              className="w-[90%] mx-auto h-[100%]"
             />
           </div>
         </div>
+        <button className="flex rounded-md bg-[pink] p-2 w-[9rem] mx-auto my-3 text-gray-900 hover:scale-110 ease-in-out delay-100 duration-300">Order Now</button>
+        </div>
       </section>
 
-      <section className="bg-gray-800 dark:bg-gray-100 text-white p-10 text-2xl z-10">
+      <section className="bg-gray-800 dark:bg-gray-100 text-white p-10 text-2xl z-10 relative">
         <div className="w-[70vw] mx-auto">
           <div className="grid grid-cols-4 grid-rows-2 gap-y-8 gap-x-4">
             <p className="col-start-1 col-span-3 text-demo1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              sequi minima neque pariatur cupiditate facere maiores nobis velum
-              dolor sit amet consectetur adipisicing elit. Quas eaque inventore
+              Our 
               tempore reprehenderit corporis exercitationem, ut excepturi
               eligendi porro? Sit quas labore hic illum corporis enim aliquid
               excepturi Deleniti, dolore.
