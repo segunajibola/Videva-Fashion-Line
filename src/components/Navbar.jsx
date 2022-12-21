@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { FaMoon, FaLightbulb, FaBars, FaTimes } from "react-icons/fa";
 // import { IoIosArrowDown } from "react-icons/io";
-import Logo from "../assets/navbar/logo.jpg";
+import Logo from "../assets/navbar/logo.png";
 import { Link } from "react-router-dom";
 
 const Navbar = ({ handleMode, darkMode }) => {
