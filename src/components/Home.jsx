@@ -6,7 +6,7 @@ import { GiTeacher } from "react-icons/gi";
 const Home = () => {
   return (
     <>
-      <header className="pt-4 md:pt-0 px-2 z-10 md:flex min-h-full items-center justify-between w-full bg-gray-900 bg-fixed bg-center bg-cover dark:bg-gray-100 text-white">
+      <header className="fixed pt-4 md:pt-0 px-2 md:flex min-h-full items-center justify-between w-full bg-gray-900 bg-fixed bg-center bg-cover dark:bg-gray-100 text-white">
         <div className="w-[90vw] mx-auto">
           <div className="md:grid grid-cols-5 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-16 md:h-[95vh] mx-auto borde r-4">
             <div className="animate-fade-in-right grid col-span-2">
@@ -57,7 +57,7 @@ const Home = () => {
         </div>
       </header>
 
-      <section className="bg-gray-800 dark:bg-gray-100 text-white p-10 text-2xl">
+      <section className="mt-[10rem] bg-gray-800 dark:bg-gray-100 text-white p-10 text-2xl z-10">
         <div className="w-[70vw] mx-auto">
           <div className="grid grid-cols-4 grid-rows-2 gap-y-8 gap-x-4">
             <p className="col-start-1 col-span-3 text-demo1">
@@ -83,7 +83,7 @@ const Home = () => {
         </div>
       </section>
 
-      <div className="bg-gray-900 dark:bg-gray-100 relative h-[70vh] w-[92vw]">
+      <div className="bg-gray-900 dark:bg-gray-100 relative h-[70vh] w-[92vw] z-10">
         <img
           src="/images/fashion4.jpg"
           alt=""
@@ -103,9 +103,9 @@ const Home = () => {
         </div>
       </div>
 
-      <section className="bg-gray-900 dark:bg-gray-100 text-white px-10 py-40 text-xl">
-        <div className="flex space-x-[10rem] md:mt-[20rem]">
-          <h3>About</h3>
+      <section className="bg-gray-900 dark:bg-gray-100 text-white px-10 py-12 text-xl z-10 relative">
+        <div className="flex space-x-[12rem] md:mt-[20rem]">
+          <h3>Who We Are</h3>
           <p className="text-lg">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint est
             nam totam ullam fugiat, iusto quidem repudiandae suscipit odit
@@ -115,7 +115,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-200 dark:bg-gray-100 text-gray-900 px-20 py-24 text-lg">
+      <section className="bg-gray-200 dark:bg-gray-100 text-gray-900 px-20 py-24 text-lg z-10 relative">
         <h3 className="text-center text-3xl mb-12">Services</h3>
         <div className="flex space-x-4 w-[90%] mx-auto">
           <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
@@ -154,7 +154,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-900 dark:bg-gray-100 text-white pt-16 text-lg h-[90vh]">
+      <section className="bg-gray-900 dark:bg-gray-100 text-white pt-16 text-lg h-[90vh] z-10 relative">
         <div className="flex w-[70%] h-[40l] m-auto">
           <div className="w-[50%] h-[20%] my-auto z-10">
             <img
@@ -177,94 +177,6 @@ const Home = () => {
               <button>Make an appointment</button>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section
-        className="pt-5 h-full bg-gray-900"
-        style={{ backgroundImage: `url(images/bgfashion.png)` }}
-        id="about"
-      >
-        <div className="py-10 px-3 text-2xl">
-          <h2 className="text-4xl text-center pb-3 border-b-4">About Us</h2>
-          <div className="mt-10 -ml-1 space-y-6">
-            <p className="">
-              <span className="p-1 border border-black top-8 -mb -10 mr-2 inline rounded-full">
-                1
-              </span>
-              DIY Sewing Community
-            </p>
-            <p className="">
-              <span className="p-1 border border-black top-8 -mb-10 mr-2 inline rounded-full">
-                2
-              </span>
-              Fashion Students
-            </p>
-            <p className="">
-              <span className="p-1 border border-black top-8 -mb-10 mr-2 inline rounded-full">
-                3
-              </span>
-              Clothing Boutiques
-            </p>
-            <p className="">
-              <span className="p-1 border border-black top-8 -mb-10 mr-2 inline rounded-full">
-                4
-              </span>
-              Tailors & Dressmakers
-            </p>
-            <p className="">
-              <span className="p-1 border border-black top-8 -mb-10 mr-2 inline rounded-full">
-                5
-              </span>
-              Training
-            </p>
-            <p className="">
-              <span className="p-1 border border-black top-8 -mb-10 mr-2 inline rounded-full">
-                6
-              </span>
-              Consulting
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="m-2 md:flex" id="designs">
-        <div className="flex mt-10 text-center space-x-2">
-          <div className="flex md:w-80">
-            <div>
-              <img src="images/fashion2.jpg" alt="" srcset="" />
-              <p>This is a text</p>
-            </div>
-          </div>
-          <div className="flex">
-            <div>
-              <img src="images/fashion3.jpg" alt="" srcset="" />
-              <p>This is a text</p>
-            </div>
-          </div>
-          <div className="flex">
-            <div>
-              <img src="images/fashion6.jpg" alt="" srcset="" />
-              <p>This is a text</p>
-            </div>
-          </div>
-        </div>
-        <div className="ml-3">
-          <h3 className="text-3xl mb-5 pt-10">
-            Design a complete fashion collection in minutes 1
-          </h3>
-          <p className="text-lg">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            alias nam quibusdam ut, dolorum veritatis est at cum, quod hic
-            itaque adipisci laborum nemo vero deserunt rerum voluptate fugiat
-            molestias?
-          </p>
-          <p className="text-lg">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            alias nam quibusdam ut, dolorum veritatis est at cum, quod hic
-            itaque adipisci laborum nemo vero deserunt rerum voluptate fugiat
-            molestias?
-          </p>
         </div>
       </section>
     </>
