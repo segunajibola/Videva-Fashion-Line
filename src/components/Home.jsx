@@ -16,7 +16,10 @@ const Home = () => {
                   Moda in Spanish - Fashion in English.
                 </p>
                 <p className="text-2xl">
-                  Fashion, trend, style, vogue - everything here.
+                  Fashion, trend, style, vogue - everything here. Look, we know
+                  it's hard to find the perfect pair of pants that fits
+                  your body. You're not alone—we've all been there! But we want
+                  to make sure you get the right fit, so we created Moda for people like you.
                 </p>
                 <a
                   href="#contact"
@@ -115,8 +118,8 @@ const Home = () => {
           className="w-auto left-10 ml-auto absolute top-10 h-[100%] inline"
         />
         <div className="text-white w-[30rem] absolute top-[10rem] right-[10rem]">
-          <h3 className="text-xl mb-2">Picks of the day - Jeans</h3>
-          <p>
+          <h3 className="text-2xl mb-2">Picks of the day - Jeans</h3>
+          <p className="text-xl">
             Moda's jeans are as comfortable as they are stylish. They're made
             with a selection of materials that provide both comfort and style,
             including soft cotton and linen blend fabrics, durable denim, and
@@ -128,25 +131,22 @@ const Home = () => {
             and value—it wants to make sure that every customer feels
             comfortable and satisfied with their purchase from Moda.
           </p>
-
-          {/* 
-          Our mission is simple: to create products that make you feel comfortable, fulfilled, and confident about your appearance. If you're interested in learning more about us or buying some of our great products, please visit us at [website address]. */}
         </div>
       </div>
 
       <section className="bg-gray-900 dark:bg-gray-100 text-white px-10 py-12 text-xl z-10 relative">
-        <div className="flex space-x-[12rem] md:mt-[20rem]">
-          <h3>Who We Are</h3>
+        <div className="flex space-x-[8rem] md:mt-[10rem]">
+          <h3>Who We Are?</h3>
           <p className="text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint est
-            nam totam ullam fugiat, iusto quidem repudiandae suscipit odit
-            accusantium dolore, beatae cumque, maxime tempore autem corrupti
-            expedita tempora quisquam.
+            Our mission is simple: to create products that make you feel
+            comfortable, fulfilled, and confident about your appearance. If
+            you're interested in learning more about us or buying some of our
+            great products, please visit us at any of our boutiques.
           </p>
         </div>
       </section>
 
-      <section className="bg-gray-200 dark:bg-gray-100 text-gray-900 px-20 py-24 text-lg z-10 relative">
+      <section className="bg-gray-200 dark:bg-gray-100 text-gray-900 px-20 py-32 text-lg z-10 relative">
         <h3 className="text-center text-3xl mb-12">Services</h3>
         <div className="flex space-x-4 w-[90%] mx-auto">
           <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
@@ -154,7 +154,7 @@ const Home = () => {
               size={145}
               className="mx-auto hover:animate-bounce duration-100 delay-100 ease-in-out"
             />
-            <h2 className="text-2xl my-4">Sewing Community</h2>
+            <h2 className="text-2xl my-4">Fashion Community</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Doloremque magnam reiciendis.
