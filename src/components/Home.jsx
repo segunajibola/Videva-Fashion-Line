@@ -6,7 +6,7 @@ import { GiTeacher } from "react-icons/gi";
 const Home = () => {
   return (
     <>
-      <header className="pt-4 md:pt-0 px-2 z-10 md:flex min-h-full items-center justify-between w-full bg-gray-900 bg-fixed dark:bg-gray-100 text-white">
+      <header className="pt-4 md:pt-0 px-2 z-10 md:flex min-h-full items-center justify-between w-full bg-gray-900 bg-fixed bg-center bg-cover dark:bg-gray-100 text-white">
         <div className="w-[90vw] mx-auto">
           <div className="md:grid grid-cols-5 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-16 md:h-[95vh] mx-auto borde r-4">
             <div className="animate-fade-in-right grid col-span-2">
