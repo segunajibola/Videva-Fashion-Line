@@ -11,17 +11,12 @@ const Home = () => {
           <div className="md:grid grid-cols-5 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-16 md:h-[95vh] mx-auto borde r-4">
             <div className="animate-fade-in-right grid col-span-2">
               <div className="flex flex-col pt-1 space-y-12 md:mt-15 my-auto">
-                <h1 className="text-4xl font-bold mb-2">VIDEVA FASHION LINE</h1>
-                <p className="text-2xl">
-                  Turning you into a fashionista! Let's bring your design to
-                  life with fabrics.
+                <h1 className="text-4xl font-bold mb-2">MODA</h1>
+                <p className="text-3xl">
+                  Moda in Spanish - Fashion in English.
                 </p>
-                <p className="text-xl">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
-                  quidem nostrum laborum ex natus asperiores explicabo ipsam
-                  officiis? Molestias neque consequatur perferendis voluptates?
-                  Incidunt laboriosam labore suscipit accusamus. Laboriosam,
-                  explicabo.
+                <p className="text-2xl">
+                Fashion, trend, style, vogue - everything here.
                 </p>
                 <a
                   href="#contact"
