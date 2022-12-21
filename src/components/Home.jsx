@@ -195,8 +195,15 @@ const Home = () => {
             />
           </div>
 
-          <section>
-            
+          <section className="bg-gray-900 dark:bg-gray-100 relative h-[120vh] w-[90vw] z-10 mx-auto">
+              <div className="grid grid-cols-5 gap-3">
+                <p>We create amazing custom wears in different varieties. Look through our gallery and upgrade your wardrope today!</p>
+                <img src="" alt="" />        
+                <img src="" alt="" />        
+                <img src="" alt="" />        
+                <img src="" alt="" />        
+                <img src="" alt="" />        
+              </div>
           </section>
 
           <div className="w-[50%] space-y-8 bg-black py-16 px-12">
