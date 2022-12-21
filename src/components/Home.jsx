@@ -185,14 +185,15 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-900 dark:bg-gray-100 relative h-[120vh] w-[90vw] z-10 mx-auto p-24">
-              <div className="grid grid-cols-5 gap-3">
-                <p className="text-xl">We create amazing custom wears in different varieties. Look through our gallery and upgrade your wardrope today!</p>
-                <img src="/images/col1.jpg" alt="" />        
-                <img src="/images/col2.jpg" alt="" />        
-                <img src="/images/col3.jpg" alt="" />        
-                <img src="/images/col4.jpg" alt="" />        
-                <img src="/images/col5.jpg" alt="" />        
+      <section className="bg-gray-900 dark:bg-gray-100 relative h-[120nvh] w-[90vw] z-10 mx-auto p-24">
+              <div className="grid grid-cols-6 grid-rows-2 grid-flow-col gap-3">
+                <p className="text-xl col-span-1 text-white">We create amazing custom wears in different varieties. Look through our gallery and upgrade your wardrope today!</p>
+                <img src="/images/col2.jpg" alt="" className="col-span-1"/>        
+                <img src="/images/col1.jpg" alt="" className="col-span-1"/>        
+                <img src="/images/col3.jpg" alt="" className="col-span-2"/>        
+                <img src="/images/col4.jpg" alt="" className="col-span-1"/>        
+                <img src="/images/col5.jpg" alt="" className="col-span-3"/>        
+                <img src="/images/col6.jpg" alt="" className="col-span-2"/>        
               </div>
           </section>
 
