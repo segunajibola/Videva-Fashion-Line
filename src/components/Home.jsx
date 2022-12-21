@@ -6,51 +6,58 @@ import { GiTeacher } from "react-icons/gi";
 const Home = () => {
   return (
     <>
-      <header className="pt-4 md:pt-0 px-2 z-10 md:flex min-h-full items-center justify-between w-full bg-gray-900 dark:bg-gray-100 text-white">
+      <header className="pt-4 md:pt-0 px-2 z-10 md:flex min-h-full items-center justify-between w-full bg-gray-900 bg-fixed bg-center bg-cover dark:bg-gray-100 text-white">
         <div className="w-[90vw] mx-auto">
-          <div className="md:flex md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-10 md:h-[80vh] mx-auto">
-            <div className="flex flex-col pt-1 space-y-12 md:mt-15 my-auto">
-              <h1 className="text-4xl font-bold mb-4">VIDEVA FASHION LINE</h1>
-              <p className="text-2xl">
-                Turning you into a fashionista! Let's bring your design to life
-                with fabrics.
-              </p>
-              <p className="text-xl">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
-                quidem nostrum laborum ex natus asperiores explicabo ipsam
-                officiis? Molestias neque consequatur perferendis voluptates?
-                Incidunt laboriosam labore suscipit accusamus. Laboriosam,
-                explicabo.
-              </p>
-              <a
-                href="#contact"
-                className="py-3 px-2 w-32 font-medium text-black text-xl bg-gray-300 rounded-md transition duration-300"
-              >
-                Contact Us
-              </a>
-              <div className="flex space-x-6 text-xl divide-x">
-                <div className="flex flex-col">
-                  <p>100+</p>
-                  <p>Happy Customers</p>
-                </div>
-                <div className="flex flex-col pl-5">
-                  <p>15+</p>
-                  <p>Shop Outlets</p>
+          <div className="md:grid grid-cols-5 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-16 md:h-[95vh] mx-auto borde r-4">
+            <div className="animate-fade-in-right grid col-span-2">
+              <div className="flex flex-col pt-1 space-y-12 md:mt-15 my-auto">
+                <h1 className="text-4xl font-bold mb-2">VIDEVA FASHION LINE</h1>
+                <p className="text-2xl">
+                  Turning you into a fashionista! Let's bring your design to
+                  life with fabrics.
+                </p>
+                <p className="text-xl">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
+                  quidem nostrum laborum ex natus asperiores explicabo ipsam
+                  officiis? Molestias neque consequatur perferendis voluptates?
+                  Incidunt laboriosam labore suscipit accusamus. Laboriosam,
+                  explicabo.
+                </p>
+                <a
+                  href="#contact"
+                  className="py-3 px-2 w-32 font-medium text-black text-xl bg-gray-300 rounded-md transition duration-300"
+                >
+                  Contact Us
+                </a>
+                <div className="flex space-x-6 text-xl divide-x">
+                  <div className="flex flex-col">
+                    <p>100+</p>
+                    <p>Happy Customers</p>
+                  </div>
+                  <div className="flex flex-col pl-5">
+                    <p>15+</p>
+                    <p>Shop Outlets</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="flex flex-shrink-0 justify-center mt-5 items-center w-full md:w-96">
+            <div className="animate-fade-in-left grid col-span-3 justify-center mt-5 items-center w-full">
               <img
-                src="images/fashionplain.jpg"
+                src="images/vector.png"
                 alt="Responsive components"
-                className="w-[800px] h-[500px]"
+                className="w-full md:w-[40rem] h-[50rem] -mt-64 borde r-4"
+              />
+              <img
+                src="images/homeFashion.png"
+                alt="Responsive components"
+                className="absolute w-full md:w-[40rem] h-[55rem] -mt-64 borde r-4"
               />
             </div>
           </div>
         </div>
       </header>
 
-      <section className="bg-gray-900 dark:bg-gray-100 text-white p-10 text-2xl">
+      <section className="bg-gray-800 dark:bg-gray-100 text-white p-10 text-2xl">
         <div className="w-[70vw] mx-auto">
           <div className="grid grid-cols-4 grid-rows-2 gap-y-8 gap-x-4">
             <p className="col-start-1 col-span-3 text-demo1">
@@ -123,7 +130,10 @@ const Home = () => {
             </p>
           </div>
           <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
-            <GiClothes size={145} className="mx-auto hover:animate-bounce duration-100 delay-100 ease-in-out" />
+            <GiClothes
+              size={145}
+              className="mx-auto hover:animate-bounce duration-100 delay-100 ease-in-out"
+            />
             <h2 className="text-2xl my-4">Clothing Boutiques</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -131,7 +141,10 @@ const Home = () => {
             </p>
           </div>
           <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
-            <GiTeacher size={145} className="mx-auto hover:animate-bounce duration-100 delay-100 ease-in-out" />
+            <GiTeacher
+              size={145}
+              className="mx-auto hover:animate-bounce duration-100 delay-100 ease-in-out"
+            />
             <h2 className="text-2xl my-4">Training & Consulting</h2>
             <p>
               Lorem ipsuím, dolor sit amet consectetur adipisicing elit.
