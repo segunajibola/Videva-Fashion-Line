@@ -53,6 +53,13 @@ const Home = () => {
       </header>
 
       <section className="mt-[10rem] bg-gray-800 dark:bg-gray-100 text-white p-10 text-2xl z-10">
+          <div className="grid">
+            <img src="images/img1.jpg" alt="" className="w-[10rem] h-64" />
+            <img src="images/img2.jpg" alt="" className="w-[10rem] h-64"/>
+          </div>
+      </section>
+
+      <section className="bg-gray-800 dark:bg-gray-100 text-white p-10 text-2xl z-10">
         <div className="w-[70vw] mx-auto">
           <div className="grid grid-cols-4 grid-rows-2 gap-y-8 gap-x-4">
             <p className="col-start-1 col-span-3 text-demo1">
