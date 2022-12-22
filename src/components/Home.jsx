@@ -213,7 +213,7 @@ const Home = () => {
             <img
               src="/images/col1.jpg"
               alt=""
-              className="h-[90 %] w-max"
+              className="h-[208%] w-max"
             />
           </div>
           
@@ -239,7 +239,7 @@ const Home = () => {
             alt=""
             className="fh-[50%] w-max"
           /> */}
-          <p className="text-white text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nam praesentium nemo eligendi lkwjhuiwebfwuef wwubfwubfuwef wefwufhwbfuw.</p>
+          <p className="text-white text-lg">We believe in making products with love and care—that's why we donate 10% of our profits to environmental causes (like protecting our oceans through plastic pollution).</p>
           </div>
         </div>
       </section>
