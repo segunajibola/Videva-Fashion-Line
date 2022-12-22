@@ -113,14 +113,17 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="w-[100vw] py-4 bg-gray-100 relative">
-        <div className="bg-gray-100 dark:bg-gray-100 relative h-[120vh] w-[90vw] mx-auto">
-          <img
+      <section className="w-[100vw] py-4 bg-gray-100 z-10 relative">
+
+        <div className="grid grid-cols-2 bg-gray-100 dark:bg-gray-100 h-[100vh] w-[80vw] mx-auto">
+          <div className="border-4">
+            <img
             src="/images/corey.jpg"
             alt=""
-            className="w-auto left-10 ml-auto absolute top-10 h-[100%] inline"
+            className="w-full object-cover object-center h-[70%]"
           />
-          <div className="w-[30rem] absolute top-[10rem] right-[10rem]">
+          </div>
+          <div className="p-2 border-4">
             <h3 className="text-2xl mb-2">Picks of the day - Jeans</h3>
             <p className="text-xl">
               Moda's jeans are as comfortable as they are stylish. They're made
