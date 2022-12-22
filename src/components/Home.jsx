@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineComment } from "react-icons/ai";
 import { GiClothes } from "react-icons/gi";
 import { GiTeacher } from "react-icons/gi";
+import Testimonials from "./Testimonials";
 
 const Home = () => {
   return (
@@ -17,9 +18,10 @@ const Home = () => {
                 </p>
                 <p className="text-2xl">
                   Fashion, trend, style, vogue - everything here. Look, we know
-                  it's hard to find the perfect pair of pants that fits
-                  your body. You're not alone—we've all been there! But we want
-                  to make sure you get the right fit, so we created Moda for people like you.
+                  it's hard to find the perfect pair of pants that fits your
+                  body. You're not alone—we've all been there! But we want to
+                  make sure you get the right fit, so we created Moda for people
+                  like you.
                 </p>
                 <a
                   href="#contact"
@@ -55,7 +57,7 @@ const Home = () => {
         </div>
       </header>
 
-      <section className="mt-[45rem] bg-gray-900 dark:bg-gray-100 text-white p-8 text-2xl z-10 relative">
+      <section className="mt-[45rem] bg-[#947b4f] dark:bg-gray-100 text-white p-8 text-2xl z-10 relative">
         <div className="w-[70vw] mx-auto z-10">
           <h3 className="text-center text-3xl tracking-widest my-2">
             Love matching colours?
@@ -111,32 +113,34 @@ const Home = () => {
         </div>
       </section>
 
-      <div className="bg-gray-900 dark:bg-gray-100 relative h-[120vh] w-[90vw] z-10 mx-auto">
-        <img
-          src="/images/corey.jpg"
-          alt=""
-          className="w-auto left-10 ml-auto absolute top-10 h-[100%] inline"
-        />
-        <div className="text-white w-[30rem] absolute top-[10rem] right-[10rem]">
-          <h3 className="text-2xl mb-2">Picks of the day - Jeans</h3>
-          <p className="text-xl">
-            Moda's jeans are as comfortable as they are stylish. They're made
-            with a selection of materials that provide both comfort and style,
-            including soft cotton and linen blend fabrics, durable denim, and
-            stretchy spandex. These jeans are handmade by artisans in the region
-            of Moda's headquarters, so you can be sure that each pair is made
-            with the same care as the last. The company also uses sustainable
-            materials whenever possible, including organic vegetable dyes and
-            recycled polyester fabrics. Moda has built its brand around quality
-            and value—it wants to make sure that every customer feels
-            comfortable and satisfied with their purchase from Moda.
-          </p>
+      <section className="py-16 bg-gray-100 z-10 relative">
+        <div className="grid grid-cols-2 bg-gray-100 dark:bg-gray-100 w-[80vw] mx-auto h-[70vh]">
+          <div className="">
+            <img
+              src="/images/corey.jpg"
+              alt=""
+              className="w-full object-cover object-bottom h-[50%]"
+            />
+          </div>
+          <div className="p-6">
+            <h3 className="text-2xl mb-4">Picks of the day - Jeans</h3>
+            <p className="text-xl">
+              Moda's jeans are as comfortable as they are stylish. They're made
+              with a selection of materials that provide both comfort and style,
+              including soft cotton and linen blend fabrics, durable denim, and
+              stretchy spandex. These jeans are handmade by artisans in the
+              region of Moda's headquarters, so you can be sure that each pair
+              is made with the same care as the last. The company also uses
+              sustainable materials whenever possible, including organic
+              vegetable dyes and recycled polyester fabrics. Moda has built its
+              brand around quality and value—it wants to make sure that every
+              customer feels comfortable and satisfied with their purchase from
+              Moda.
+            </p>
+          </div>
         </div>
-      </div>
-
-      <section className="bg-gray-900 dark:bg-gray-100 text-white px-10 py-12 text-xl z-10 relative">
-        <div className="flex space-x-[8rem] md:mt-[10rem]">
-          <h3>Who We Are?</h3>
+        <div className="flex space-x-[1rem] w-[80vw] mx-auto">
+          <h3 className="w-64 text-lg">Who We Are?</h3>
           <p className="text-lg">
             Our mission is simple: to create products that make you feel
             comfortable, fulfilled, and confident about your appearance. If
@@ -146,7 +150,19 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-200 dark:bg-gray-100 text-gray-900 px-20 py-32 text-lg z-10 relative">
+      {/* <section className="bg-gray-100 dark:bg-gray-100 px-10 py-12 text-xl z-10 relative">
+        <div className="flex space-x-[8rem] md:mt-[10rem]">
+          <h3>Who We Are?</h3>
+          <p className="text-lg">
+            Our mission is simple: to create products that make you feel
+            comfortable, fulfilled, and confident about your appearance. If
+            you're interested in learning more about us or buying some of our
+            great products, please visit us at any of our boutiques.
+          </p>
+        </div>
+      </section> */}
+
+      <section className="bg-[#947b4f] dark:bg-gray-100 text-gray-900 px-20 py-32 text-lg z-10 relative">
         <h3 className="text-center text-3xl mb-12">Services</h3>
         <div className="flex space-x-4 w-[90%] mx-auto">
           <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
@@ -186,19 +202,52 @@ const Home = () => {
       </section>
 
       <section className="bg-gray-900 dark:bg-gray-100 relative h-[120nvh] w-[90vw] z-10 mx-auto p-24">
-              <div className="grid grid-cols-6 grid-rows-2 grid-flow-col gap-3 w-[90%] mx-auto h-[100vh]">
-                <p className="text-xl col-span-1 text-white">We create amazing custom wears in different varieties. Look through our gallery and upgrade your wardrope today!</p>
-                <img src="/images/col2.jpg" alt="" className="col-span-2 overflow-hidden border-4 h-[50%] w-max"/>
-                <img src="/images/col5.jpg" alt="" className="col-span-2 row-span-2 overflow-hidden border-4 h-[75%] w-max"/>
-                
-                <img src="/images/col1.jpg" alt="" className="col-span-3 overflow-hidden border-4 h-[50%] w-max"/>
+        <div className="grid grid-cols-6 grid-rows-3 grid-flow-col gap-3 w-[90%] mx-auto h-[100vh] border-4 p-2">
+          <p className="text-xl col-span-1 text-white">
+            We create amazing custom wears in different varieties. Look through
+            our gallery and upgrade your wardrope today!
+          </p>
 
-                <img src="/images/col3.jpg" alt="" className="col-span-1 overflow-hidden border-4 h-[50%] w-max"/>        
-                <img src="/images/col4.jpg" alt="" className="col-span-1 overflow-hidden border-4 h-[50%] w-max"/>        
-                        
-                <img src="/images/col6.jpg" alt="" className="col-span-2 overflow-hidden border-4 h-[50%] w-max"/> 
-              </div>
-          </section>
+          <div className="col-start-2 col-span-2">
+            <img src="/images/col2.jpg" alt="" className="fh-[100%] w-max" />
+          </div>
+
+          <div className="col-start-4 col-span-3 row-span-2">
+            <img src="/images/col5.jpg" alt="" className="fh-[75%] w-max" />
+          </div>
+
+          <div className="row-start-2 col-start-1 col-span-2 h-[9 0%] ">
+            <img src="/images/col1.jpg" alt="" className="h-[208%] w-max" />
+          </div>
+
+          <div className="row-start-2 col-start-3 col-span-1">
+            <img src="/images/col3.jpg" alt="" className="gh-[50%] w-max" />
+          </div>
+
+          <div className="row-start-3 col-start-3 col-span-1">
+            <img
+              src="/images/col4.jpg"
+              alt=""
+              className="fh-[50%] my-[0.5px] w-max"
+            />
+          </div>
+
+          <div className="row-start-3 col-end-7 col-span-3 justify-self-end place-self-end">
+            {/* <img
+            src="/images/col6h.jpg"
+            alt=""
+            className="fh-[50%] w-max"
+          /> */}
+            <p className="text-white text-lg">
+              We believe in making products with love and care—that's why we
+              donate 10% of our profits to environmental causes (like protecting
+              our oceans through plastic pollution).
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <Testimonials />
 
       <section className="bg-gray-900 dark:bg-gray-100 text-white pt-16 text-lg h-[90vh] z-10 relative">
         <div className="flex w-[70%] h-[40l] m-auto">
@@ -212,7 +261,13 @@ const Home = () => {
           <div className="w-[50%] space-y-8 bg-black py-16 px-12">
             <h3 className="text-xl font-bold">This is an heading</h3>
             <p>
-            In addition to helping you look good while reading or playing games on your phone, Moda is also there when you need advice on what to wear in the morning—or any other time of day! Our stylists spend hours working on each garment, ensuring they'll fit perfectly no matter what size or shape you are. And since we know how hard it can be finding things that fit well (even if they cost less), we also offer FREE alterations on all orders over $50!
+              In addition to helping you look good while reading or playing
+              games on your phone, Moda is also there when you need advice on
+              what to wear in the morning—or any other time of day! Our stylists
+              spend hours working on each garment, ensuring they'll fit
+              perfectly no matter what size or shape you are. And since we know
+              how hard it can be finding things that fit well (even if they cost
+              less), we also offer FREE alterations on all orders over $50!
             </p>
             <p className="pb-16">$1000</p>
             <div className="flex space-x-6">
