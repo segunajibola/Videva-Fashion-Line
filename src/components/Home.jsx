@@ -113,18 +113,17 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="w-[100vw] py-4 bg-gray-100 z-10 relative">
-
-        <div className="grid grid-cols-2 bg-gray-100 dark:bg-gray-100 h-[100vh] w-[80vw] mx-auto">
-          <div className="border-4">
+      <section className="py-16 bg-gray-100 z-10 relative">
+        <div className="grid grid-cols-2 bg-gray-100 dark:bg-gray-100 w-[80vw] mx-auto h-[70vh]">
+          <div className="">
             <img
-            src="/images/corey.jpg"
-            alt=""
-            className="w-full object-cover object-center h-[70%]"
-          />
+              src="/images/corey.jpg"
+              alt=""
+              className="w-full object-cover object-bottom h-[50%]"
+            />
           </div>
-          <div className="p-2 border-4">
-            <h3 className="text-2xl mb-2">Picks of the day - Jeans</h3>
+          <div className="p-6">
+            <h3 className="text-2xl mb-4">Picks of the day - Jeans</h3>
             <p className="text-xl">
               Moda's jeans are as comfortable as they are stylish. They're made
               with a selection of materials that provide both comfort and style,
@@ -140,9 +139,18 @@ const Home = () => {
             </p>
           </div>
         </div>
+        <div className="flex space-x-[1rem] w-[80vw] mx-auto">
+          <h3 className="w-64 text-lg">Who We Are?</h3>
+          <p className="text-lg">
+            Our mission is simple: to create products that make you feel
+            comfortable, fulfilled, and confident about your appearance. If
+            you're interested in learning more about us or buying some of our
+            great products, please visit us at any of our boutiques.
+          </p>
+        </div>
       </section>
 
-      <section className="bg-gray-100 dark:bg-gray-100 px-10 py-12 text-xl z-10 relative">
+      {/* <section className="bg-gray-100 dark:bg-gray-100 px-10 py-12 text-xl z-10 relative">
         <div className="flex space-x-[8rem] md:mt-[10rem]">
           <h3>Who We Are?</h3>
           <p className="text-lg">
@@ -152,7 +160,7 @@ const Home = () => {
             great products, please visit us at any of our boutiques.
           </p>
         </div>
-      </section>
+      </section> */}
 
       <section className="bg-[#947b4f] dark:bg-gray-100 text-gray-900 px-20 py-32 text-lg z-10 relative">
         <h3 className="text-center text-3xl mb-12">Services</h3>
