@@ -34,17 +34,17 @@ const Testimonials = () => {
               // }}
               navigation={false}
               modules={[Autoplay, Navigation]}
-              className="mx-auto w-[20rem]"
+              className="mx-auto w-[28rem]"
             >
                 {testimonials.map((testimonial) => (
-                    <SwiperSlide className="md:my-2">
-                    <figure className="p-2 text-center">
-                      <figcaption className="font-medium text-gray-100 dark:text-gray-800">
+                    <SwiperSlide className="md:m-2">
+                    <figure className="p-2">
+                      <figcaption className="text-gray-100 dark:text-gray-800">
                           <div>{testimonial.name}</div>
                           <div className="mb-2">{testimonial.position}</div>
                         </figcaption>
                         <blockquote className="mx-auto">
-                          <p className="text-lg font-semibold text-gray-100">
+                          <p className="text-gray-100">
                             {testimonial.text}
                           </p>
                         </blockquote>
