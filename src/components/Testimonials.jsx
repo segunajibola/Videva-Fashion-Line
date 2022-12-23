@@ -40,11 +40,11 @@ const Testimonials = () => {
                     <SwiperSlide className="md:m-2">
                     <figure className="p-2">
                       <figcaption className="text-gray-100 dark:text-gray-800">
-                          <div>{testimonial.name}</div>
-                          <div className="mb-2">{testimonial.position}</div>
+                          <div className="text-lg">{testimonial.name}</div>
+                          <div className="mb-2 text-[12px] italic">{testimonial.position}</div>
                         </figcaption>
                         <blockquote className="mx-auto">
-                          <p className="text-gray-100">
+                          <p className="text-gray-100 text-[16px]">
                             {testimonial.text}
                           </p>
                         </blockquote>

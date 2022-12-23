@@ -6,6 +6,7 @@ const testimonials = [
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum adipisci.",
     name: "John Doe",
     position: "Owner, VFL",
+    
   },
   {
     id: 2,
