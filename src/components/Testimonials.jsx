@@ -20,8 +20,8 @@ const Testimonials = () => {
             <img src="/images/corey.jpg" alt="" className="h-[26rem] ml-auto" />
           </div>
           <div className="relative col-span-2 border-4 border-red-500">
-            <div className="absolute top-40 -left-2">
-              <div className="bg-gray-900 rounded-lg w-72 h-32 left-0">
+            <div className="absolute top-24 -left-2">
+              <div className="bg-gray-900 rounded-lg w-7d2 hd-32 left-0">
               <Swiper
               spaceBetween={30}
               centeredSlides={true}
@@ -37,14 +37,14 @@ const Testimonials = () => {
               className="mx-auto w-[20rem]"
             >
                 {testimonials.map((testimonial) => (
-                    <SwiperSlide className="md:my-5 p-2">
-                    <figure className="p-3 text-center">
+                    <SwiperSlide className="md:my-2">
+                    <figure className="p-2 text-center">
                       <figcaption className="font-medium text-gray-100 dark:text-gray-800">
                           <div>{testimonial.name}</div>
                           <div className="mb-2">{testimonial.position}</div>
                         </figcaption>
                         <blockquote className="mx-auto">
-                          <p className="text-lg font-semibold mx-2 dark:text-gray-900">
+                          <p className="text-lg font-semibold text-gray-100">
                             {testimonial.text}
                           </p>
                         </blockquote>
