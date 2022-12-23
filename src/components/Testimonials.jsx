@@ -1,5 +1,14 @@
 import React from "react";
 import testimonials from "../data/testimonials";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 const Testimonials = () => {
   return (
@@ -12,11 +21,40 @@ const Testimonials = () => {
           </div>
           <div className="relative col-span-2 border-4 border-red-500">
             <div className="absolute top-40 -left-2">
-              <div className="bg-gray-900 rounded-lg w-32 h-32 left-0">
+              <div className="bg-gray-900 rounded-lg w-72 h-32 left-0">
+              <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              // pagination={{
+              //   clickable: true,
+              // }}
+              navigation={false}
+              modules={[Autoplay, Navigation]}
+              className="mx-auto w-[20rem]"
+            >
                 {testimonials.map((testimonial) => (
-                  <div>{testimonial[0].text}</div>
-                ))}
-                <h3 className="text-white">Jake Smith</h3>
+                    <SwiperSlide className="md:my-5 p-2">
+                    <figure className="p-3 text-center">
+                      <figcaption className="font-medium text-gray-100 dark:text-gray-800">
+                          <div>{testimonial.name}</div>
+                          <div className="mb-2">{testimonial.position}</div>
+                        </figcaption>
+                        <blockquote className="mx-auto">
+                          <p className="text-lg font-semibold mx-2 dark:text-gray-900">
+                            {testimonial.text}
+                          </p>
+                        </blockquote>
+                    </figure>
+                  </SwiperSlide>
+                  ))}
+                  </Swiper>
+                {/* //   <div key={testimonial.id} className="text-white">{testimonial.name}</div> */}
+                
+                {/* <h3 className="text-white">Jake Smith</h3> */}
               </div>
             </div>
           </div>
