@@ -16,7 +16,7 @@ const Testimonials = () => {
     const images = [];
 
     for (let i = 0; i < 5; i++) {
-      images.push(<img src="" key={i}>el {i}</img>);
+      images.push(<img src="/images/star-filled.png" key={i}></img>);
     }
 
     return images;
@@ -58,7 +58,9 @@ const Testimonials = () => {
                                 {testimonial.position}
                               </div>
                             </div>
-                            <div></div>
+                            <div className="flex">
+                            <ImageList />
+                            </div>
                           </div>
                         </figcaption>
                         <blockquote className="mx-auto">
