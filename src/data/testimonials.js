@@ -6,7 +6,7 @@ const testimonials = [
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum adipisci.",
     name: "John Doe",
     position: "Owner, VFL",
-    rating: 3
+    rating: 2
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const testimonials = [
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum adipisci.",
     name: "John Doe",
     position: "Staff Engineer, ABL",
-    rating: 4
+    rating: 3
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const testimonials = [
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum adipisci.",
     name: "John Doe",
     position: "Staff Engineer, ABL",
-    rating: 5
+    rating: 2
   },
 ];
 
