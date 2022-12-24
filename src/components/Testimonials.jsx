@@ -11,6 +11,17 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 const Testimonials = () => {
+
+  function ImageList() {
+    const images = [];
+
+    for (let i = 0; i < 5; i++) {
+      images.push(<img src="" key={i}>el {i}</img>);
+    }
+
+    return images;
+  }
+
   return (
     <section className="bg-gray-200 dark:bg-gray-100 text-gray-900 px-20 py-12 text-lg z-10 relative">
       <div>
@@ -47,9 +58,7 @@ const Testimonials = () => {
                                 {testimonial.position}
                               </div>
                             </div>
-                            <div>
-                                
-                            </div>
+                            <div></div>
                           </div>
                         </figcaption>
                         <blockquote className="mx-auto">
