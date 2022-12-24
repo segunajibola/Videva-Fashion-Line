@@ -16,7 +16,7 @@ const Testimonials = () => {
     const images = [];
 
     for (let i = 0; i < 5; i++) {
-      images.push(<img src="/images/star-filled.png" key={i}></img>);
+      images.push(<img src="/images/star-filled.png" className="w-[40px] h-[40px]" key={i}></img>);
     }
 
     return images;
@@ -51,7 +51,7 @@ const Testimonials = () => {
                     <SwiperSlide className="w-[12rem] mx-auto py-6">
                       <figure className="p-2 w-[29rem] mx-auto">
                         <figcaption className="text-gray-100 dark:text-gray-800">
-                          <div className="flex">
+                          <div className="flex justify-between">
                             <div>
                               <div className="text-lg">{testimonial.name}</div>
                               <div className="mb-2 text-[12px] italic">
