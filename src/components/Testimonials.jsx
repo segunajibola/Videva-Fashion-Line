@@ -18,7 +18,6 @@ const Testimonials = () => {
     for (let i = 0; i < testimonials.rating; i++) {
       images.push(<img src="/images/star-filled.png" className="w-[40px] h-[40px]" key={i}></img>);
     }
-
     return images;
   }
 
