@@ -22,38 +22,47 @@ const Testimonials = () => {
           <div className="relative col-span-2 border-4 border-red-500">
             <div className="absolute top-24 -left-2">
               <div className="bg-gray-900 rounded-lg w-7d2 hd-32 left-0">
-              <Swiper
-              spaceBetween={30}
-              centeredSlides={true}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
-              pagination={{
-                clickable: true,
-              }}
-              navigation={true}
-              modules={[Autoplay, Pagination, Navigation]}
-              className="mx-auto w-[33rem]"
-            >
-                {testimonials.map((testimonial) => (
+                <Swiper
+                  spaceBetween={30}
+                  centeredSlides={true}
+                  autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                  }}
+                  pagination={{
+                    clickable: true,
+                  }}
+                  navigation={true}
+                  modules={[Autoplay, Pagination, Navigation]}
+                  className="mx-auto w-[33rem]"
+                >
+                  {testimonials.map((testimonial) => (
                     <SwiperSlide className="w-[12rem] mx-auto py-6">
-                    <figure className="p-2 w-[29rem] mx-auto">
-                      <figcaption className="text-gray-100 dark:text-gray-800">
-                          <div className="text-lg">{testimonial.name}</div>
-                          <div className="mb-2 text-[12px] italic">{testimonial.position}</div>
+                      <figure className="p-2 w-[29rem] mx-auto">
+                        <figcaption className="text-gray-100 dark:text-gray-800">
+                          <div className="flex">
+                            <div>
+                              <div className="text-lg">{testimonial.name}</div>
+                              <div className="mb-2 text-[12px] italic">
+                                {testimonial.position}
+                              </div>
+                            </div>
+                            <div>
+                                
+                            </div>
+                          </div>
                         </figcaption>
                         <blockquote className="mx-auto">
                           <p className="text-gray-100 text-[16px]">
                             {testimonial.text}
                           </p>
                         </blockquote>
-                    </figure>
-                  </SwiperSlide>
+                      </figure>
+                    </SwiperSlide>
                   ))}
-                  </Swiper>
+                </Swiper>
                 {/* //   <div key={testimonial.id} className="text-white">{testimonial.name}</div> */}
-                
+
                 {/* <h3 className="text-white">Jake Smith</h3> */}
               </div>
             </div>
