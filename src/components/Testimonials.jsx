@@ -29,16 +29,16 @@ const Testimonials = () => {
                 delay: 2500,
                 disableOnInteraction: false,
               }}
-              // pagination={{
-              //   clickable: true,
-              // }}
-              navigation={false}
-              modules={[Autoplay, Navigation]}
-              className="mx-auto w-[28rem]"
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mx-auto w-[33rem]"
             >
                 {testimonials.map((testimonial) => (
-                    <SwiperSlide className="md:m-2">
-                    <figure className="p-2">
+                    <SwiperSlide className="w-[12rem] mx-auto py-6">
+                    <figure className="p-2 w-[29rem] mx-auto">
                       <figcaption className="text-gray-100 dark:text-gray-800">
                           <div className="text-lg">{testimonial.name}</div>
                           <div className="mb-2 text-[12px] italic">{testimonial.position}</div>
