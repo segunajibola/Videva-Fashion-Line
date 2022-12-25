@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineComment } from "react-icons/ai";
 import { GiClothes } from "react-icons/gi";
 import { GiTeacher } from "react-icons/gi";
+import Contact from "./Contact";
 import Testimonials from "./Testimonials";
 
 const Home = () => {
@@ -248,6 +249,7 @@ const Home = () => {
       </section>
 
       <Testimonials />
+      <Contact />
 
       <section className="bg-gray-900 dark:bg-gray-100 text-white pt-16 text-lg h-[90vh] z-10 relative">
         <div className="flex w-[70%] h-[40l] m-auto">

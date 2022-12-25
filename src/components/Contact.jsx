@@ -1,15 +1,9 @@
 const Contact = () => {
   return (
-    <div id='contact' className='w-full text-gray-300 bg-[#0a192f] dark:text-gray-800 dark:bg-gray-100'>
+    <div id='contact' className='bg-gray-900 dark:bg-gray-100 text-gray-900 px-20 py-12 text-lg z-10 relative'>
       <div className='flex flex-col justify-center items-center w-full h-full pt-20'>
-        <div className='max-w-[1000px] w-full'>
-          <div className='absolute pb-8 pl-4'>
-            <p className='text-[6.5rem] md:text-9xl font-bold inline opacity-10 border-b-4 border-yellow-600'>
-              Contact
-            </p>
-          </div>
-        </div>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+        <h3 className="text-center text-3xl mb-12">Testimonials</h3>
           <div className='sm:text-right mt-20 text-2xl font-bold'>
             <p>Submit this form to send me an email.</p>
           </div>
