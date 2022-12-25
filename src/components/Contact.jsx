@@ -2,11 +2,8 @@ const Contact = () => {
   return (
     <div id='contact' className='bg-gray-900 dark:bg-gray-100 text-gray-900 px-20 py-12 text-lg z-10 relative'>
         <h3 className="text-center text-3xl mb-12 text-gray-100">Contact</h3>
-      <div className='flex flex-col justify-center items-center w-full h-full pt-20'>
-        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-          <div className='sm:text-right mt-20 text-2xl font-bold'>
-            <p>Submit this form to send me an email.</p>
-          </div>
+      <div className='flex flex-col justify-center items-center w-full h-full'>
+        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>          
           <form method="POST" action="https://formsubmit.co/cfd3b6bc430690ebff065253cdfdb7b5" className='relative flex flex-col max-w-[600px] w-full -mt-5 sm:mt-20 md:mt-16'>
               <input
                 className='bg-gray-400 dark:bg-gray-300 text-gray-900 rounded-lg p-2 outline-none placeholder:text-gray-200'
