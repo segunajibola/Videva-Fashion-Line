@@ -12,16 +12,23 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 const Testimonials = () => {
 
-  function ImageList() {
-    const images = [];
+  function ImageList({ rating }) {
+    let images = [];
 
     testimonials.map(testimonial => {
       for (let i = 0; i < testimonial.rating; i++) {
       images.push(<img src="/images/star-filled.png" className="w-[40px] h-[40px]" key={i}></img>);
-    }  
+    }
+    
     })
     
     return images;
+  }
+
+  function img(rate) {
+    for (let i = 0; i < rate; i++) {
+        <img src="/images/star-filled.png" className="w-[40px] h-[40px]" key={i}></img>;
+      }
   }
 
   return (
@@ -61,7 +68,7 @@ const Testimonials = () => {
                               </div>
                             </div>
                             <div className="flex">
-                            <ImageList />
+                            <ImageList rating={testimonial.position}/>
                             </div>
                           </div>
                         </figcaption>

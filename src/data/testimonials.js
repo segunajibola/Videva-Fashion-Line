@@ -24,7 +24,7 @@ const testimonials = [
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum adipisci.",
     name: "John Doe",
     position: "Staff Engineer, ABL",
-    rating: 2
+    rating: 4
   },
 ];
 
