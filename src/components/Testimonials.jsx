@@ -18,7 +18,7 @@ const Testimonials = () => {
       images.push(
         <img
           src="/images/star-filled.png"
-          className="w-[40px] h-[40px]"
+          className="w-[25px] h-[25px]"
           key={i}
          />
       );
