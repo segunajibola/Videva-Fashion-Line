@@ -20,7 +20,7 @@ const Testimonials = () => {
           src="/images/star-filled.png"
           className="w-[40px] h-[40px]"
           key={i}
-        ></img>
+         />
       );
     }
 
@@ -77,9 +77,6 @@ const Testimonials = () => {
                     </SwiperSlide>
                   ))}
                 </Swiper>
-                {/* //   <div key={testimonial.id} className="text-white">{testimonial.name}</div> */}
-
-                {/* <h3 className="text-white">Jake Smith</h3> */}
               </div>
             </div>
           </div>
