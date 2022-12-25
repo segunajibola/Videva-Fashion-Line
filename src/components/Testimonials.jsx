@@ -24,18 +24,28 @@ const Testimonials = () => {
       );
     }
 
-    return images;
+    for (let i = 0; i < 5; i++) {
+        images.push(
+          <img
+            src="/images/star-no-filled.png"
+            className="w-[25px] h-[25px]"
+            key={i}
+           />
+        );
+      }
+
+    return images.slice(0,5);
   }
 
   return (
     <section className="bg-gray-200 dark:bg-gray-100 text-gray-900 px-20 py-12 text-lg z-10 relative">
       <div>
         <h3 className="text-center text-3xl mb-12">Testimonials</h3>
-        <div className="grid grid-cols-3 w-[80vw] h-[27rem] mx-auto border-4 border-red-500">
-          <div className="col-span-1 border-4 border-red-500">
-            <img src="/images/corey.jpg" alt="" className="h-[26rem] ml-auto" />
+        <div className="grid grid-cols-3 w-[80vw] h-[27rem] mx-auto">
+          <div className="col-span-1 border-4 border-red-300">
+            <img src="/images/corey.jpg" alt="" className="h-[26rem] ml-autdo w-full object-cover object-bottom rounded-lg" />
           </div>
-          <div className="relative col-span-2 border-4 border-red-500">
+          <div className="relative col-span-2">
             <div className="absolute top-24 -left-2">
               <div className="bg-gray-900 rounded-lg w-7d2 hd-32 left-0">
                 <Swiper
@@ -56,6 +66,9 @@ const Testimonials = () => {
                     <SwiperSlide className="w-[12rem] mx-auto py-6">
                       <figure className="p-2 w-[29rem] mx-auto">
                         <figcaption className="text-gray-100 dark:text-gray-800">
+                            <div>
+                                <img src={testimonial.image} alt="" />
+                            </div>
                           <div className="flex justify-between">
                             <div>
                               <div className="text-lg">{testimonial.name}</div>
