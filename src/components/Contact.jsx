@@ -1,9 +1,9 @@
 const Contact = () => {
   return (
     <div id='contact' className='bg-gray-900 dark:bg-gray-100 text-gray-900 px-20 py-12 text-lg z-10 relative'>
+        <h3 className="text-center text-3xl mb-12 text-gray-100">Contact</h3>
       <div className='flex flex-col justify-center items-center w-full h-full pt-20'>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-        <h3 className="text-center text-3xl mb-12">Testimonials</h3>
           <div className='sm:text-right mt-20 text-2xl font-bold'>
             <p>Submit this form to send me an email.</p>
           </div>
@@ -21,12 +21,6 @@ const Contact = () => {
                 placeholder='Email'
                 name='email'
                 required
-              />
-              <input 
-                type="text"
-                name="subject"
-                placeholder="Subject"
-                className="bg-gray-400 dark:bg-gray-300 mb-4 p-2 text-gray-800 rounded-lg outline-none placeholder:text-gray-200"
               />
               <textarea
                 className='bg-gray-400 dark:bg-gray-300 text-gray-800 rounded-lg p-2 outline-none placeholder:text-gray-200'
