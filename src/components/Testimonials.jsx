@@ -42,11 +42,11 @@ const Testimonials = () => {
       <div>
         <h3 className="text-center text-3xl mb-12">Testimonials</h3>
         <div className="grid grid-cols-3 w-[80vw] h-[27rem] mx-auto">
-          <div className="col-span-1 border-4 border-red-300">
+          <div className="col-span-1">
             <img src="/images/corey.jpg" alt="" className="h-[26rem] ml-autdo w-full object-cover object-bottom rounded-lg" />
           </div>
           <div className="relative col-span-2">
-            <div className="absolute top-24 -left-2">
+            <div className="absolute top-20 -left-2">
               <div className="bg-gray-900 rounded-lg w-7d2 hd-32 left-0">
                 <Swiper
                   spaceBetween={30}
@@ -66,8 +66,8 @@ const Testimonials = () => {
                     <SwiperSlide className="w-[12rem] mx-auto py-6">
                       <figure className="p-2 w-[29rem] mx-auto">
                         <figcaption className="text-gray-100 dark:text-gray-800">
-                            <div>
-                                <img src={testimonial.image} alt="" />
+                            <div className="mb-3">
+                                <img src={testimonial.image} alt="" className="w-28 h-28 rounded-[50%] mx-auto" />
                             </div>
                           <div className="flex justify-between">
                             <div>
