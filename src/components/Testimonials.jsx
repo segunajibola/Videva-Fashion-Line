@@ -41,7 +41,7 @@ const Testimonials = () => {
     <section className="bg-gray-200 dark:bg-gray-100 text-gray-900 px-20 py-12 text-lg z-10 relative">
       <div>
         <h3 className="text-center text-3xl mb-12">Testimonials</h3>
-        <div className="grid grid-cols-3 w-[80vw] h-[27rem] mx-auto">
+        <div className="grid grid-cols-3 w-[80%] ml-[15%] mr-[5%] h-[27rem]">
           <div className="col-span-1">
             <img src="/images/corey.jpg" alt="" className="h-[26rem] ml-autdo w-full object-cover object-bottom rounded-lg" />
           </div>
