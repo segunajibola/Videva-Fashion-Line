@@ -2,7 +2,12 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-gray-900 dark:bg-gray-100 text-gray-900 px-20 py-12 text-lg z-10 relative"
+      className="dark:bg-gray-100 text-gray-900 px-20 py-12 text-lg z-10 relative"
+      style={{ 
+        backgroundImage: `url(/images/testimonial2.jpg)`,
+        backgroundSize: "contain",
+        backgroundAttachment: "fixed"
+    }}
     >
       <h3 className="text-center text-3xl mb-12 text-gray-100">Contact</h3>
       <form
