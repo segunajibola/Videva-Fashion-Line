@@ -8,11 +8,11 @@ import Testimonials from "./Testimonials";
 const Home = () => {
   return (
     <>
-      <header className="fixed pt-4 md:pt-0 px-2 md:flex min-h-full items-center justify-between w-full bg-gray-900 bg-center dark:bg-gray-100 text-white">
+      <header className="pt-4 md:pt-0 px-2 md:flex min-h-full items-center justify-between w-full bg-gray-900 bg-center dark:bg-gray-100 text-white">
         <div className="w-[90vw] mx-auto">
-          <div className="md:grid grid-cols-5 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-16 md:h-[95vh] mx-auto borde r-4">
+          <div className="md:grid grid-cols-5 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-16 md:h-[100vh] mx-auto">
             <div className="animate-fade-in-right grid col-span-2">
-              <div className="flex flex-col pt-1 space-y-12 md:mt-15 my-auto">
+              <div className="flex flex-col pt-1 space-y-6 md:mt-15 my-auto">
                 <h1 className="text-4xl font-bold mb-2">MODA</h1>
                 <p className="text-3xl">
                   Moda in Spanish - Fashion in English.
@@ -46,19 +46,19 @@ const Home = () => {
               <img
                 src="images/vector.png"
                 alt="Responsive components"
-                className="w-full md:w-[40rem] h-[50rem] -mt-64 borde r-4"
+                className="w-full md:w-[40rem] h-[45rem] -mt-64 borde r-4"
               />
               <img
                 src="images/homeFashion.png"
                 alt="Responsive components"
-                className="absolute w-full md:w-[40rem] h-[55rem] -mt-64 borde r-4"
+                className="absolute w-full md:w-[40rem] h-[52.4rem] -mt-64 borde r-4"
               />
             </div>
           </div>
         </div>
       </header>
 
-      <section className="mt-[45rem] bg-[#947b4f] dark:bg-gray-100 text-white p-8 text-2xl z-10 relative">
+      <section className="bg-[#947b4f] dark:bg-gray-100 text-white p-8 text-2xl">
         <div className="w-[70vw] mx-auto z-10">
           <h3 className="text-center text-3xl tracking-widest my-2">
             Love matching colours?
@@ -85,7 +85,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-800 dark:bg-gray-100 text-white p-10 text-2xl z-10 relative">
+      <section className="bg-gray-800 dark:bg-gray-100 text-white p-10 text-2xl">
         <div className="w-[70vw] mx-auto">
           <div className="grid grid-cols-4 grid-rows-2 gap-y-8 gap-x-4">
             <p className="col-start-1 col-span-3 text-demo1">
@@ -114,11 +114,11 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-100 z-10 relative">
+      <section className="py-16 bg-gray-100">
         <div className="grid grid-cols-2 bg-gray-100 dark:bg-gray-100 w-[80vw] mx-auto h-[70vh]">
           <div className="">
             <img
-              src="/images/corey.jpg"
+              src="/images/corey.jfpg"
               alt=""
               className="w-full object-cover object-bottom h-[50%]"
             />
@@ -151,7 +151,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* <section className="bg-gray-100 dark:bg-gray-100 px-10 py-12 text-xl z-10 relative">
+      {/* <section className="bg-gray-100 dark:bg-gray-100 px-10 py-12 text-xl">
         <div className="flex space-x-[8rem] md:mt-[10rem]">
           <h3>Who We Are?</h3>
           <p className="text-lg">
@@ -163,7 +163,7 @@ const Home = () => {
         </div>
       </section> */}
 
-      <section className="bg-[#947b4f] dark:bg-gray-100 text-gray-900 px-20 py-32 text-lg z-10 relative">
+      <section className="bg-[#947b4f] dark:bg-gray-100 text-gray-900 px-20 py-32 text-lg">
         <h3 className="text-center text-3xl mb-12">Services</h3>
         <div className="flex space-x-4 w-[90%] mx-auto">
           <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
@@ -251,7 +251,7 @@ const Home = () => {
       <Testimonials />
       <Contact />
 
-      <section className="bg-gray-900 dark:bg-gray-100 text-white pt-16 text-lg h-[90vh] z-10 relative">
+      <section className="bg-gray-900 dark:bg-gray-100 text-white pt-16 text-lg h-[90vh]">
         <div className="flex w-[70%] h-[40l] m-auto">
           <div className="w-[50%] h-[20%] my-auto z-10">
             <img
