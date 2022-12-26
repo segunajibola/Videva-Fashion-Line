@@ -8,37 +8,37 @@ const Contact = () => {
       <form
         method="POST"
         action="https://formsubmit.co/cfd3b6bc430690ebff065253cdfdb7b5"
-        className="grid grid-cols-2 grid-rows-2 gap-4 max-w-[600px] w-full -mt-5 sm:mt-20 md:mt-16"
+        className="grid grid-cols-2 grid-rows-2 gap-4 max-w-[600px] w-full -mt-5 sm:mt-20 md:mt-16 bg-red-200"
       >
-        <div className="border-4 bg-red-200">
+        <div className="border-4 bg-green-50 border-blue-200">
           <input
-          className="bg-gray-400 dark:bg-gray-300 text-gray-900 rounded-lg p-2 outline-none placeholder:text-gray-200 m-2  border-4"
-          type="text"
-          placeholder="Name"
-          name="name"
-          required
-        />
+            className="bg-gray-400 dark:bg-gray-300 text-gray-900 rounded-lg p-2 outline-none placeholder:text-gray-200 m-2 border-4"
+            type="text"
+            placeholder="Name"
+            name="name"
+            required
+          />
         </div>
-        
-        <div className="border-4 h-32">
+
+        <div className="border-4 border-blue-200 bg-green-50">
           <input
-          className="bg-gray-400 dark:bg-gray-300 p-2 text-gray-800 rounded-lg outline-none placeholder:text-gray-200 m-2 h-8"
-          type="email"
-          placeholder="Email"
-          name="email"
-          required
-        />
+            className="bg-gray-400 dark:bg-gray-300 p-2 text-gray-800 rounded-lg outline-none placeholder:text-gray-200 m-2"
+            type="email"
+            placeholder="Email"
+            name="email"
+            required
+          />
         </div>
         <div className="row-start-2  border-4">
           <textarea
-          className="bg-gray-400 dark:bg-gray-300 text-gray-800 rounded-lg p-2 outline-none placeholder:text-gray-200 row-start-2  border-4"
-          name="message"
-          rows="10"
-          placeholder="Message"
-          required
-        ></textarea>
+            className="bg-gray-400 dark:bg-gray-300 text-gray-800 rounded-lg p-2 outline-none placeholder:text-gray-200 row-start-2  border-4"
+            name="message"
+            rows="10"
+            placeholder="Message"
+            required
+          ></textarea>
         </div>
-        
+
         <input
           type="hidden"
           name="_next"
@@ -48,6 +48,26 @@ const Contact = () => {
         <button className="bg-gray-400 dark:bg-gray-300 text-gray-100 border-2 hover:text-gray-800 hover:bg-gray-100 hover:border-gray-200 px-4 py-3 my-8 mx-auto flex items-center dark:text-gray-900 dark:border-gray-500 dark:hover:bg-gray-300 dark:hover:border-gray-800">
           Send mail
         </button>
+      </form>
+
+      <form class="grid grid-cols-2 grid-rows-2 gap-4 max-w-[600px] w-full -mt-5 sm:mt-20 md:mt-16 bg-red-200 relative">
+      <div className="border-4 bg-green-50 border-blue-200">
+          <input
+            className="bg-gray-400 dark:bg-gray-300 text-gray-900 rounded-lg p-2 outline-none placeholder:text-gray-200 m-2 border-4"
+            type="text"
+            placeholder="Name"
+            name="name"
+            required
+          />
+        </div>
+        <div className="bg-blue-100">01</div>
+        <div className="bg-blue-100">01</div>
+        <div className="bg-blue-100">01</div>
+        <div className="bg-blue-100">01</div>
+        <div className="bg-blue-100">01</div>
+        <div className="bg-blue-100">01</div>
+        <div className="bg-blue-100">01</div>
+        <div className="bg-blue-100">01</div>
       </form>
     </section>
   );
