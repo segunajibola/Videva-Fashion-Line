@@ -65,14 +65,14 @@ const Home = () => {
           <h3 className="text-center text-3xl tracking-widest my-2">
             Love matching colours?
           </h3>
-          <div className="grid grid-cols-2 gap-1 w-[90%] mx-auto border-4 h-[80vh] py-8">
-            <div className="mx-auto">
+          <div className="grid grid-cols-2 gap-[1[5px] w-[100%] mx-auto border-4 h-[80vh] py-8">
+            <div className="mx-auto border-4">
               <LazyLoadImage
                 src={`images/img5.jpg`}
-                width={450}
+                width={400}
                 height={450}
                 effect="blur"
-                className={`w-[80%] h-[100%] mx-auto`}
+                className={`w-[100%] h-[100%] mx-auto border-4 border-blue-800 object-cover object-top`}
                 alt="Image Alt"
               />
               {/* <img
@@ -81,13 +81,13 @@ const Home = () => {
                 className="w-[90%] h-[100%] mx-auto"
               /> */}
             </div>
-            <div className="mx-auto">
+            <div className="mx-auto border-4">
             <LazyLoadImage
                 src={`images/img6.jpg`}
-                width={450}
+                width={400}
                 height={450}
                 effect="blur"
-                className={`w-[80%] h-[100%] mx-auto`}
+                className={`w-[100%] h-[100%] mx-auto border-4 object-cover object-top`}
                 alt="Image Alt"
               />
               {/* <img
