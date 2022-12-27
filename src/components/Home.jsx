@@ -65,36 +65,26 @@ const Home = () => {
           <h3 className="text-center text-3xl tracking-widest my-2">
             Love matching colours?
           </h3>
-          <div className="grid grid-cols-2 gap-[1[5px] w-[100%] mx-auto border-4 h-[80vh] py-8">
-            <div className="mx-auto border-4">
+          <div className="grid grid-cols-2 w-[90%] mx-auto border-4 py-4">
+            <div className="mx-auto">
               <LazyLoadImage
                 src={`images/img5.jpg`}
                 width={400}
                 height={450}
                 effect="blur"
-                className={`w-[100%] h-[100%] mx-auto border-4 border-blue-800 object-cover object-top`}
+                className={`w-[100%] h-[100%] mx-auto object-cover object-top`}
                 alt="Image Alt"
               />
-              {/* <img
-                src="images/img5.jpg"
-                alt=""
-                className="w-[90%] h-[100%] mx-auto"
-              /> */}
             </div>
-            <div className="mx-auto border-4">
+            <div className="mx-auto">
             <LazyLoadImage
                 src={`images/img6.jpg`}
                 width={400}
                 height={450}
                 effect="blur"
-                className={`w-[100%] h-[100%] mx-auto border-4 object-cover object-top`}
+                className={`w-[100%] h-[100%] mx-auto object-cover object-top`}
                 alt="Image Alt"
               />
-              {/* <img
-                src="images/img6.jpg"
-                alt=""
-                className="w-[90%] mx-auto h-[100%]"
-              /> */}
             </div>
           </div>
           <button className="flex rounded-md bg-[pink] p-2 w-[9rem] mx-auto my-3 text-gray-900 hover:scale-110 ease-in-out delay-100 duration-300">
