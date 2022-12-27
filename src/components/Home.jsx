@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Testimonials from "./Testimonials";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import PlaceholderImage from "images/img5-placeholder.jpg";
 
 const Home = () => {
   return (
@@ -71,6 +72,7 @@ const Home = () => {
                 src={`images/img5.jpg`}
                 width={400}
                 height={450}
+                PlaceholderSrc={PlaceholderImage}
                 effect="blur"
                 className={`w-[100%] h-[100%] mx-auto object-cover object-top`}
                 alt="Image Alt"
