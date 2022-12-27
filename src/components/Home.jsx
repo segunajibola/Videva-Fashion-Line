@@ -6,7 +6,7 @@ import Contact from "./Contact";
 import Testimonials from "./Testimonials";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import PlaceholderImage from "images/img5-placeholder.jpg";
+import PlaceholderImage from "/images/img5-placeholder.jpg";
 
 const Home = () => {
   return (
@@ -69,7 +69,7 @@ const Home = () => {
           <div className="grid grid-cols-2 w-[90%] mx-auto border-4 py-4">
             <div className="mx-auto">
               <LazyLoadImage
-                src={`images/img5.jpg`}
+                src={PlaceholderImage}
                 width={400}
                 height={450}
                 PlaceholderSrc={PlaceholderImage}
