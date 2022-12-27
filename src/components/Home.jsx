@@ -53,7 +53,7 @@ const Home = () => {
               <img
                 src="images/homeFashion.png"
                 alt="Responsive components"
-                className="absolute w-full md:w-[40rem] h-[52.4rem] -mt-64 borde r-4"
+                className="absolute w-full md:w-[40rem] h-[52.4rem] -mt-64"
               />
             </div>
           </div>
