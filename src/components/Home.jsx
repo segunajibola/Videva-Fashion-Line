@@ -4,6 +4,8 @@ import { GiClothes } from "react-icons/gi";
 import { GiTeacher } from "react-icons/gi";
 import Contact from "./Contact";
 import Testimonials from "./Testimonials";
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Home = () => {
   return (
@@ -65,11 +67,19 @@ const Home = () => {
           </h3>
           <div className="grid grid-cols-2 gap-2 z-10 w-[85%] mx-auto border-4 h-[80vh] py-8">
             <div className="mx-auto">
-              <img
+              <LazyLoadImage
+                src={`images/img5.jpg`}
+                width={450}
+                height={450}
+                effect="blurj"
+                className={`w-[80%] h-[100%] mx-auto`}
+                alt="Image Alt"
+              />
+              {/* <img
                 src="images/img5.jpg"
                 alt=""
                 className="w-[90%] h-[100%] mx-auto"
-              />
+              /> */}
             </div>
             <div className="mx-auto">
               <img
