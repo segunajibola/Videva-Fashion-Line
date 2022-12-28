@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="dark:bg-gray-100 text-gray-900 px-20 py-12 text-lg"
+      className="dark:bg-gray-100 text-gray-900 px-20 py-16 text-lg"
       style={{ 
         backgroundImage: `url(/img/img3.jpg)`,
         backgroundSize: "cover",
@@ -13,14 +13,15 @@ const Contact = () => {
         // backgroundAttachment: "fixed"
     }}
     >
-      <h3 className="text-center text-3xl mb-12 text-gray-100">Contact</h3>
+      <h3 className="text-center text-3xl mb-2 text-gray-100">Contact</h3>
+      <h4 className="text-center text-xl text-gray-100">Send us a message</h4>
       <form
         method="POST"
         action="https://formsubmit.co/cfd3b6bc430690ebff065253cdfdb7b5"
-        className="flex flex-col gap-2 max-w-[450px] mx-auto w-full -mt-5 sm:mt-20 md:mt-16 border-4"
+        className="flex flex-col gap-2 max-w-[450px] mx-auto w-full -mt-5 sm:mt-20 md:mt-12"
       >
         {/* <div className=""> */}
-        <div className="flex gap-1">
+        <div className="flex gap-1.5">
           <input
             className="bg-gray-400 dark:bg-gray-300 text-gray-900 rounded-lg p-2 outline-none placeholder:text-gray-200"
             type="text"
