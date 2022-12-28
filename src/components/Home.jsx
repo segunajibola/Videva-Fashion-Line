@@ -7,6 +7,7 @@ import Testimonials from "./Testimonials";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import PlaceholderImage from "/images/img5-placeholder.jpg";
+import Services from "./Services";
 
 const Home = () => {
   return (
@@ -161,56 +162,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* <section className="bg-gray-100 dark:bg-gray-100 px-10 py-12 text-xl">
-        <div className="flex space-x-[8rem] md:mt-[10rem]">
-          <h3>Who We Are?</h3>
-          <p className="text-lg">
-            Our mission is simple: to create products that make you feel
-            comfortable, fulfilled, and confident about your appearance. If
-            you're interested in learning more about us or buying some of our
-            great products, please visit us at any of our boutiques.
-          </p>
-        </div>
-      </section> */}
-
-      <section className="bg-[#947b4f] dark:bg-gray-100 text-gray-900 px-20 py-32 text-lg">
-        <h3 className="text-center text-3xl mb-12">Services</h3>
-        <div className="flex space-x-4 w-[90%] mx-auto">
-          <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
-            <AiOutlineComment
-              size={145}
-              className="mx-auto hover:animate-bounce duration-100 delay-100 ease-in-out"
-            />
-            <h2 className="text-2xl my-4">Fashion Community</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Doloremque magnam reiciendis.
-            </p>
-          </div>
-          <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
-            <GiClothes
-              size={145}
-              className="mx-auto hover:animate-bounce duration-100 delay-100 ease-in-out"
-            />
-            <h2 className="text-2xl my-4">Clothing Boutiques</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Doloremque magnam reiciendis.
-            </p>
-          </div>
-          <div className="text-center px-4 hover:scale-110 duration-100 delay-100 ease-in-out">
-            <GiTeacher
-              size={145}
-              className="mx-auto hover:animate-bounce duration-100 delay-100 ease-in-out"
-            />
-            <h2 className="text-2xl my-4">Training & Consulting</h2>
-            <p>
-              Lorem ipsuím, dolor sit amet consectetur adipisicing elit.
-              Doloremque magnam reiciendis.
-            </p>
-          </div>
-        </div>
-      </section>
+      <Services />
 
       <section className="bg-gray-900 dark:bg-gray-100 mx-auto p-24">
         <div className="grid grid-cols-6 grid-rows-3 grid-flow-col gap-3 w-[90%] mx-auto h-[110vh] border-4 p-2">
@@ -244,12 +196,7 @@ const Home = () => {
           </div>
 
           <div className="row-start-3 col-end-7 col-span-3 justify-self-end place-self-end">
-            {/* <img
-            src="/images/col6h.jpg"
-            alt=""
-            className="fh-[50%] w-max"
-          /> */}
-            <p className="text-white text-lg">
+             <p className="text-white text-lg">
               We believe in making products with love and care—that's why we
               donate 10% of our profits to environmental causes (like protecting
               our oceans through plastic pollution).
@@ -289,7 +236,7 @@ const Home = () => {
           </div>
         </div>
       </section> */}
-    </>
+      </>
   );
 };
 
