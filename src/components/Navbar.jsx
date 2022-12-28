@@ -15,8 +15,9 @@ const Navbar = ({ handleMode, darkMode }) => {
     }, 1000);
   }, []);
 
-  return loading ? ( "" )
-      : (
+  return loading ? (
+    ""
+  ) : (
     <div className="animate-fade-in-down fixed z-20 w-full h-[80px] flex justify-between items-center px-4 bg-gray-900 dark:bg-gray-100 text-gray-300 dark:text-gray-800">
       {/* menu */}
       <ul className="hidden md:flex space-x-10 text-lg tracking-wide mx-auto">
@@ -26,22 +27,20 @@ const Navbar = ({ handleMode, darkMode }) => {
           </Link>
         </li>
         <li className="cursor-pointer my-3">
-          <Link to="/about">
-            About
-          </Link>          
+          <Link to="/about">About</Link>
         </li>
         <li>
-        <Link
-        className="cursor-pointer my-3"
-        to="/"
-        onClick={() => window.scrollTo(0, 0)}
-      >
-        <img
-          src={Logo}
-          alt="Logo Image"
-          style={{ width: "60px", height: "60px", borderRadius: "50px" }}
-        />
-      </Link>
+          <Link
+            className="cursor-pointer my-3"
+            to="/"
+            onClick={() => window.scrollTo(0, 0)}
+          >
+            <img
+              src={Logo}
+              alt="Logo Image"
+              style={{ width: "60px", height: "60px", borderRadius: "50px" }}
+            />
+          </Link>
         </li>
         <li className="cursor-pointer my-3">
           <Link to="/services">Services</Link>
