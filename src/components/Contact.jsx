@@ -4,12 +4,12 @@ const Contact = () => {
       id="contact"
       className="dark:bg-gray-100 text-gray-900 px-20 py-12 text-lg"
       style={{ 
-        backgroundImage: `url(/img/testimonial2.jpg)`,
+        backgroundImage: `url(/img/img3.jpg)`,
         backgroundSize: "cover",
-        // backgroundWidth: "full",
+        // backgroundWidth: "90vw",
         backgroundRepeat: "no-repeat",
         objectFit: "cover",
-        objectPosition: "bottom"
+        backgroundPosition: "center",
         // backgroundAttachment: "fixed"
     }}
     >
