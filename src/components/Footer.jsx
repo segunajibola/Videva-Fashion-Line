@@ -28,7 +28,7 @@ const Footer = () => {
 
         <div>
           <h6 className="mb-4">Quick Links</h6>
-          <div className="flex gap-12">
+          <div className="flex gap-12 ">
             <span>Home</span>
             <span>Blog</span>
           </div>
@@ -36,6 +36,21 @@ const Footer = () => {
             <span>Services</span>
             <span>Contact</span>
           </div>
+        </div>
+
+        <div className="flex flex-wrap flex-row">
+            <div className="flex justify-center flex-col">
+                <div>Home</div>
+                </div>
+            <div className="flex justify-center flex-col">
+                <div>Blog</div>
+            </div>
+            <div className="flex justify-center flex-col">
+                <div>Services</div>
+            </div>
+            <div className="flex justify-center flex-col">
+                <div>Contact</div>
+            </div>
         </div>
 
         <div>
