@@ -21,7 +21,7 @@ const Contact = () => {
         className="flex flex-col gap-2 max-w-[450px] mx-auto w-full -mt-5 sm:mt-20 md:mt-12"
       >
         {/* <div className=""> */}
-        <div className="flex gap-1.5">
+        <div className="flex gap-3">
           <input
             className="bg-gray-400 dark:bg-gray-300 text-gray-900 rounded-lg p-2 outline-none placeholder:text-gray-200"
             type="text"
@@ -58,7 +58,7 @@ const Contact = () => {
           value="https://www.segunajibola.com/thankyou"
         />
         <input type="hidden" name="_captcha" value="false" /> */}
-        <button className="bg-gray-400 dark:bg-gray-300 text-gray-100 border- hover:text-gray-800 hover:bg-gray-100 hover:border-gray-200 px-4 py-3 my-2 mx-auto flex items-center dark:text-gray-900 dark:border-gray-500 dark:hover:bg-gray-300 dark:hover:border-gray-800 row-start-3 col-span-2">
+        <button className="bg-gray-400 dark:bg-gray-300 text-gray-100 hover:text-gray-800 rounded-lg hover:bg-gray-100 hover:border-gray-200 px-4 py-3 my-2 mx-auto flex items-center dark:text-gray-900 dark:border-gray-500 dark:hover:bg-gray-300 dark:hover:border-gray-800">
           Send mail
         </button>
       </form>
