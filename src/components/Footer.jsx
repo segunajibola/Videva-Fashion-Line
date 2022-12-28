@@ -6,7 +6,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 px-12 py-8 text-gray-100">
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-3 gap-8 w-[80vw] mx-auto">
         <div>
           <div className="flex">
             <Link
@@ -22,12 +22,12 @@ const Footer = () => {
             </Link>
             <span className="text-xl my-auto">MODA</span>
           </div>
-          <span>+234 8102 5853</span>
-          <span>support@gmal.com</span>
+          <h6>+234 8102 5853</h6>
+          <h6>support@gmal.com</h6>
         </div>
 
         <div>
-          <h6>Quick Links</h6>
+          <h6 className="mb-4">Quick Links</h6>
           <div className="flex gap-12">
             <span>Home</span>
             <span>Blog</span>
@@ -40,12 +40,12 @@ const Footer = () => {
 
         <div>
           <h3 className="pb-3">Subscribe</h3>
-          <div className="flex">
-            <textarea name="" id="" cols="20" rows="1"></textarea>
-            <div className="inline bg-gray-300 m-2 p-[2px]">
+          <div className="flex text-black gap-2">
+            <textarea name="" id="" cols="20" rows="1" className="outline-none"></textarea>
+            <div className="inline bg-gray-300 p-[2px]">
               <MdOutlineKeyboardArrowRight
                 size={25}
-                className="text-black inline"
+                className="inline"
               />
             </div>
           </div>
