@@ -8,6 +8,8 @@ const Contact = () => {
         backgroundSize: "cover",
         backgroundWidth: "full",
         backgroundRepeat: "no-repeat",
+        objectFit: "cover",
+        object-position: "center";
         // backgroundAttachment: "fixed"
     }}
     >
