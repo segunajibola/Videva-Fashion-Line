@@ -17,10 +17,10 @@ const Contact = () => {
       <form
         method="POST"
         action="https://formsubmit.co/cfd3b6bc430690ebff065253cdfdb7b5"
-        className="flex flex-col gap-2 max-w-[400px] mx-auto w-full -mt-5 sm:mt-20 md:mt-16"
+        className="flex flex-col gap-2 max-w-[450px] mx-auto w-full -mt-5 sm:mt-20 md:mt-16 border-4"
       >
         {/* <div className=""> */}
-        <div className="flex gap-3">
+        <div className="flex gap-1.5">
           <input
             className="bg-gray-400 dark:bg-gray-300 text-gray-900 rounded-lg p-2 outline-none placeholder:text-gray-200"
             type="text"
@@ -41,11 +41,11 @@ const Contact = () => {
         </div>
           
         {/* </div> */}
-        <div className="row-start-2 col-span-2">
+        <div className="border-4 w-full">
           <textarea
             className="bg-gray-400 dark:bg-gray-300 text-gray-800 rounded-lg p-2 outline-none placeholder:text-gray-200 w-full h-full"
             name="message"
-            // rows=""
+            rows="5"
             placeholder="Message"
             required
           ></textarea>
