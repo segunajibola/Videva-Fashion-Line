@@ -80,7 +80,7 @@ const Home = () => {
             </div>
             <div className="mx-auto">
             <LazyLoadImage
-                src={`images/img6.jpg`}
+                src={`img/img6.jpg`}
                 width={400}
                 height={450}
                 effect="blur"
