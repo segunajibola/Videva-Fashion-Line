@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../assets/navbar/logo.png";
 import { Link } from "react-router-dom";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -26,21 +27,28 @@ const Footer = () => {
         </div>
 
         <div>
-            <h6>Quick Links</h6>
-            <div className="flex gap-12">
-                <span>Home</span>
-                <span>Blog</span>
-            </div>
-            <div className="flex gap-12">
-                <span>Services</span>
-                <span>Contact</span>
-            </div>
+          <h6>Quick Links</h6>
+          <div className="flex gap-12">
+            <span>Home</span>
+            <span>Blog</span>
+          </div>
+          <div className="flex gap-12">
+            <span>Services</span>
+            <span>Contact</span>
+          </div>
         </div>
 
         <div>
-            <span>Subscribe</span>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <MdOutlineKeyboardArrowRight />
+          <h3 className="pb-3">Subscribe</h3>
+          <div className="flex">
+            <textarea name="" id="" cols="20" rows="1"></textarea>
+            <div className="inline bg-gray-300 m-2 p-[2px]">
+              <MdOutlineKeyboardArrowRight
+                size={25}
+                className="text-black inline"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </footer>
