@@ -93,7 +93,11 @@ const Footer = () => {
         </div>
 
         <div className="border-t-2 text-gray-100 my-8 py-4">
-        <div></div>
+        <div className="flex gap-2">
+            <FaFacebook />
+            <FaTwitter />
+            <FaLinkedin />
+        </div>
         </div>
       </div>
     </footer>
