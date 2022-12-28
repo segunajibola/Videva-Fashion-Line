@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Testimonials from "./Testimonials";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import PlaceholderImage from "/images/img5-placeholder.jpg";
 
 const Home = () => {
   return (
@@ -68,9 +69,10 @@ const Home = () => {
           <div className="grid grid-cols-2 w-[90%] mx-auto border-4 py-4">
             <div className="mx-auto">
               <LazyLoadImage
-                src={`images/img5.jpg`}
+                src={`img/img5.jpg`}
                 width={400}
                 height={450}
+                PlaceholderSrc={PlaceholderImage}
                 effect="blur"
                 className={`w-[100%] h-[100%] mx-auto object-cover object-top`}
                 alt="Image Alt"
@@ -78,7 +80,7 @@ const Home = () => {
             </div>
             <div className="mx-auto">
             <LazyLoadImage
-                src={`images/img6.jpg`}
+                src={`img/img6.jpg`}
                 width={400}
                 height={450}
                 effect="blur"
@@ -126,7 +128,7 @@ const Home = () => {
         <div className="grid grid-cols-2 bg-gray-100 dark:bg-gray-100 w-[80vw] mx-auto h-[70vh]">
           <div className="">
             <img
-              src="/images/corey.jfpg"
+              src="/img/corey.jpg"
               alt=""
               className="w-full object-cover object-bottom h-[50%]"
             />
@@ -210,32 +212,32 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-900 dark:bg-gray-100 relative h-[120nvh] w-[90vw] z-10 mx-auto p-24">
-        <div className="grid grid-cols-6 grid-rows-3 grid-flow-col gap-3 w-[90%] mx-auto h-[100vh] border-4 p-2">
+      <section className="bg-gray-900 dark:bg-gray-100 mx-auto p-24">
+        <div className="grid grid-cols-6 grid-rows-3 grid-flow-col gap-3 w-[90%] mx-auto h-[110vh] border-4 p-2">
           <p className="text-xl col-span-1 text-white">
             We create amazing custom wears in different varieties. Look through
             our gallery and upgrade your wardrope today!
           </p>
 
           <div className="col-start-2 col-span-2">
-            <img src="/images/col2.jpg" alt="" className="fh-[100%] w-max" />
+            <img src="/img/col2.jpg" alt="" className="fh-[100%] w-max" />
           </div>
 
           <div className="col-start-4 col-span-3 row-span-2">
-            <img src="/images/col5.jpg" alt="" className="fh-[75%] w-max" />
+            <img src="/img/col5.jpg" alt="" className="fh-[75%] w-max" />
           </div>
 
           <div className="row-start-2 col-start-1 col-span-2 h-[9 0%] ">
-            <img src="/images/col1.jpg" alt="" className="h-[208%] w-max" />
+            <img src="/img/col1.jpg" alt="" className="h-[208%] w-max" />
           </div>
 
           <div className="row-start-2 col-start-3 col-span-1">
-            <img src="/images/col3.jpg" alt="" className="gh-[50%] w-max" />
+            <img src="/img/col3.jpg" alt="" className="gh-[50%] w-max" />
           </div>
 
           <div className="row-start-3 col-start-3 col-span-1">
             <img
-              src="/images/col4.jpg"
+              src="/img/col4.jpg"
               alt=""
               className="fh-[50%] my-[0.5px] w-max"
             />

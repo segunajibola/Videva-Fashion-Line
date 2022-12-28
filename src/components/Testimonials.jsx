@@ -43,7 +43,7 @@ const Testimonials = () => {
         <h3 className="text-center text-3xl mb-12">Testimonials</h3>
         <div className="grid grid-cols-3 w-[80%] ml-[15%] mr-[5%] h-[27rem]">
           <div className="col-span-1">
-            <img src="/images/corey.jpg" alt="" className="h-[26rem] ml-autdo w-full object-cover object-bottom rounded-lg" />
+            <img src="/img/corey.jpg" alt="" className="h-[26rem] ml-autdo w-full object-cover object-bottom rounded-lg" />
           </div>
           <div className="relative col-span-2">
             <div className="absolute top-20 -left-2">
