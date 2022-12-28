@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import { useEffect, useState } from "react";
 import PacmanLoader from "react-spinners/PacmanLoader";
+import Footer from "./components/Footer";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -26,21 +27,25 @@ function App() {
   return loading ? (
     <div className="flex justify-center items-center w-screen h-screen">
       <PacmanLoader
-      color={"#161414"}
-      loading={loading}
-      size={30}
-      aria-label="Loading Spinner"
-      data-testid="loader"
-    />
+        color={"#161414"}
+        loading={loading}
+        size={30}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />
     </div>
-    
   ) : (
-    <div className={`overflow-hidden transition ease-in-out${darkMode ? "dark" : ""}`}>
+    <div
+      className={`overflow-hidden transition ease-in-out${
+        darkMode ? "dark" : ""
+      }`}
+    >
       <Router>
         <Navbar darkMode={darkMode} handleMode={handleMode} />
         <Routes>
           <Route exact path="/" element={<Home />} />
         </Routes>
+        <Footer darkMode={darkMode} />
       </Router>
     </div>
   );

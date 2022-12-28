@@ -261,8 +261,8 @@ const Home = () => {
       <Testimonials />
       <Contact />
 
-      <section className="bg-gray-900 dark:bg-gray-100 text-white pt-16 text-lg h-[90vh]">
-        <div className="flex w-[70%] h-[40l] m-auto">
+      {/* <section className="bg-gray-900 dark:bg-gray-100 text-white pt-16 text-lg">
+        <div className="flex w-[70%] m-auto">
           <div className="w-[50%] h-[20%] my-auto z-10">
             <img
               src="/images/suit.png"
@@ -270,7 +270,7 @@ const Home = () => {
               className="ml-[210px] h-[450px] w-[80%] z-10"
             />
           </div>
-          <div className="w-[50%] space-y-8 bg-black py-16 px-12">
+          <div className="w-[50%] space-y-4 bg-black py-8 px-12">
             <h3 className="text-xl font-bold">This is an heading</h3>
             <p>
               In addition to helping you look good while reading or playing
@@ -288,7 +288,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
