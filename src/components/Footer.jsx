@@ -39,16 +39,16 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-wrap flex-row">
-          <div className="flex justify-center flex-col m-[20px]">
+          <div className="flex justify-center flex-col m-[20px]" style={{flexBasis: `calc(50% - 40px)`}}>
             <div className="flex justify-center flex-row">Home</div>
           </div>
-          <div className="flex justify-center flex-col m-[20px]">
+          <div className="flex justify-center flex-col m-[20px]" style={{flexBasis: `calc(50% - 40px)`}}>
             <div className="flex justify-center flex-row">Blog</div>
           </div>
-          <div className="flex justify-center flex-col m-[20px]">
+          <div className="flex justify-center flex-col m-[20px]" style={{flexBasis: `calc(50% - 40px)`}}>
             <div className="flex justify-center flex-row">Services</div>
           </div>
-          <div className="flex justify-center flex-col m-[20px]">
+          <div className="flex justify-center flex-col m-[20px]" style={{flexBasis: `calc(50% - 40px)`}}>
             <div className="flex justify-center flex-row">Contact</div>
           </div>
         </div>
