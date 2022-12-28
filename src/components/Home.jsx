@@ -1,7 +1,4 @@
 import React from "react";
-import { AiOutlineComment } from "react-icons/ai";
-import { GiClothes } from "react-icons/gi";
-import { GiTeacher } from "react-icons/gi";
 import Contact from "./Contact";
 import Testimonials from "./Testimonials";
 import 'react-lazy-load-image-component/src/effects/blur.css';
