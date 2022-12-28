@@ -69,7 +69,7 @@ const Home = () => {
           <div className="grid grid-cols-2 w-[90%] mx-auto border-4 py-4">
             <div className="mx-auto">
               <LazyLoadImage
-                src={`images/img5.jpg`}
+                src={`img/img5.jpg`}
                 width={400}
                 height={450}
                 PlaceholderSrc={PlaceholderImage}
