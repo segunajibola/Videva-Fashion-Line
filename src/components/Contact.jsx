@@ -2,20 +2,25 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="dark:bg-gray-100 text-gray-900 px-20 py-12 text-lg z-10 relative"
+      className="dark:bg-gray-100 text-gray-900 px-20 py-12 text-lg"
       style={{ 
-        backgroundImage: `url(/images/testimonial2.jpg)`,
-        backgroundSize: "contain",
-        backgroundAttachment: "fixed"
+        backgroundImage: `url(/img/img3.jpg)`,
+        backgroundSize: "cover",
+        // backgroundWidth: "90vw",
+        backgroundRepeat: "no-repeat",
+        objectFit: "cover",
+        backgroundPosition: "center",
+        // backgroundAttachment: "fixed"
     }}
     >
       <h3 className="text-center text-3xl mb-12 text-gray-100">Contact</h3>
       <form
         method="POST"
         action="https://formsubmit.co/cfd3b6bc430690ebff065253cdfdb7b5"
-        className="grid grid-cols-2 grid-rows-3 gap-2 max-w-[400px] mx-auto w-full -mt-5 sm:mt-20 md:mt-16"
+        className="flex flex-col gap-2 max-w-[400px] mx-auto w-full -mt-5 sm:mt-20 md:mt-16"
       >
         {/* <div className=""> */}
+        <div className="flex gap-3">
           <input
             className="bg-gray-400 dark:bg-gray-300 text-gray-900 rounded-lg p-2 outline-none placeholder:text-gray-200"
             type="text"
@@ -33,12 +38,14 @@ const Contact = () => {
             name="email"
             required
           />
+        </div>
+          
         {/* </div> */}
         <div className="row-start-2 col-span-2">
           <textarea
             className="bg-gray-400 dark:bg-gray-300 text-gray-800 rounded-lg p-2 outline-none placeholder:text-gray-200 w-full h-full"
             name="message"
-            rows="1"
+            // rows=""
             placeholder="Message"
             required
           ></textarea>
