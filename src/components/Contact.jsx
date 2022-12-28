@@ -10,7 +10,7 @@ const Contact = () => {
         backgroundRepeat: "no-repeat",
         objectFit: "cover",
         backgroundPosition: "center",
-        // backgroundAttachment: "fixed"
+        backgroundAttachment: "fixed"
     }}
     >
       <h3 className="text-center text-3xl mb-2 text-gray-100">Contact</h3>
