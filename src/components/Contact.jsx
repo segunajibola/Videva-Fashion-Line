@@ -20,7 +20,7 @@ const Contact = () => {
         className="flex flex-col gap-2 max-w-[450px] mx-auto w-full -mt-5 sm:mt-20 md:mt-16 border-4"
       >
         {/* <div className=""> */}
-        <div className="flex gap-1.5">
+        <div className="flex gap-1">
           <input
             className="bg-gray-400 dark:bg-gray-300 text-gray-900 rounded-lg p-2 outline-none placeholder:text-gray-200"
             type="text"
@@ -41,9 +41,9 @@ const Contact = () => {
         </div>
           
         {/* </div> */}
-        <div className="border-4 w-full">
+        <div className="">
           <textarea
-            className="bg-gray-400 dark:bg-gray-300 text-gray-800 rounded-lg p-2 outline-none placeholder:text-gray-200 w-full h-full"
+            className="bg-gray-400 dark:bg-gray-300 text-gray-800 rounded-lg p-2 outline-none placeholder:text-gray-200 w-full"
             name="message"
             rows="5"
             placeholder="Message"
