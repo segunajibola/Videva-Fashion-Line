@@ -39,29 +39,32 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-wrap flex-row">
-            <div className="flex justify-center flex-col">
-                <div>Home</div>
-                </div>
-            <div className="flex justify-center flex-col">
-                <div>Blog</div>
-            </div>
-            <div className="flex justify-center flex-col">
-                <div>Services</div>
-            </div>
-            <div className="flex justify-center flex-col">
-                <div>Contact</div>
-            </div>
+          <div className="flex justify-center flex-col m-[20px]">
+            <div className="flex justify-center flex-row">Home</div>
+          </div>
+          <div className="flex justify-center flex-col m-[20px]">
+            <div className="flex justify-center flex-row">Blog</div>
+          </div>
+          <div className="flex justify-center flex-col m-[20px]">
+            <div className="flex justify-center flex-row">Services</div>
+          </div>
+          <div className="flex justify-center flex-col m-[20px]">
+            <div className="flex justify-center flex-row">Contact</div>
+          </div>
         </div>
 
         <div>
           <h3 className="pb-3">Subscribe</h3>
           <div className="flex text-black gap-2">
-            <textarea name="" id="" cols="20" rows="1" className="outline-none"></textarea>
+            <textarea
+              name=""
+              id=""
+              cols="20"
+              rows="1"
+              className="outline-none"
+            ></textarea>
             <div className="inline bg-gray-300 p-[2px]">
-              <MdOutlineKeyboardArrowRight
-                size={25}
-                className="inline"
-              />
+              <MdOutlineKeyboardArrowRight size={25} className="inline" />
             </div>
           </div>
         </div>
