@@ -6,10 +6,10 @@ const Contact = () => {
       style={{ 
         backgroundImage: `url(/img/testimonial2.jpg)`,
         backgroundSize: "cover",
-        backgroundWidth: "full",
+        // backgroundWidth: "full",
         backgroundRepeat: "no-repeat",
         objectFit: "cover",
-        object-position: "center";
+        objectPosition: "bottom"
         // backgroundAttachment: "fixed"
     }}
     >
