@@ -213,31 +213,31 @@ const Home = () => {
       </section>
 
       <section className="bg-gray-900 dark:bg-gray-100 mx-auto p-24">
-        <div className="grid grid-cols-6 grid-rows-3 grid-flow-col gap-3 w-[90%] mx-auto h-[100vh] border-4 p-2">
+        <div className="grid grid-cols-6 grid-rows-3 grid-flow-col gap-3 w-[90%] mx-auto h-[110vh] border-4 p-2">
           <p className="text-xl col-span-1 text-white">
             We create amazing custom wears in different varieties. Look through
             our gallery and upgrade your wardrope today!
           </p>
 
           <div className="col-start-2 col-span-2">
-            <img src="/img/testimonial1.jpg" alt="" className="fh-[100%] w-max" />
+            <img src="/img/col2.jpg" alt="" className="fh-[100%] w-max" />
           </div>
 
           <div className="col-start-4 col-span-3 row-span-2">
-            <img src="/img/testimonial2.jpg" alt="" className="fh-[75%] w-max" />
+            <img src="/img/col5.jpg" alt="" className="fh-[75%] w-max" />
           </div>
 
           <div className="row-start-2 col-start-1 col-span-2 h-[9 0%] ">
-            <img src="/img/testimonial3.jpg" alt="" className="h-[208%] w-max" />
+            <img src="/img/col1.jpg" alt="" className="h-[208%] w-max" />
           </div>
 
           <div className="row-start-2 col-start-3 col-span-1">
-            <img src="/img/testimonial4.jpg" alt="" className="gh-[50%] w-max" />
+            <img src="/img/col3.jpg" alt="" className="gh-[50%] w-max" />
           </div>
 
           <div className="row-start-3 col-start-3 col-span-1">
             <img
-              src="/img/testimonial1b.jpg"
+              src="/img/col4.jpg"
               alt=""
               className="fh-[50%] my-[0.5px] w-max"
             />
