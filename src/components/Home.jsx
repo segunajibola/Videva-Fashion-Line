@@ -9,11 +9,11 @@ import Services from "./Services";
 const Home = () => {
   return (
     <>
-      <header className="pt-4 md:pt-0 px-2 md:flex min-h-full items-center justify-between w-[100%] bg-gray-900 bg-center dark:bg-gray-100 text-white">
+      <header className="pt-4 md:pt-0 px-2 md:flex items-center justify-between w-[100%] bg-gray-900 dark:bg-gray-100 text-white">
         <div className="w-[90vw] mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 md:space-x-8 justify-between pt-4 px-1 md:pt-14 mx-auto border-4">
             <div className="animate-fade-in-right grid md:col-span-2">
-              <div className="flex flex-col pt-1 space-y-4 mt-10 md:mt-15 my-auto">
+              <div className="flex flex-col space-y-4 mt-10 my-autod border-4">
                 <h1 className="text-4xl font-bold mb-2">MODA</h1>
                 <p className="text-xl md:text-3xl">
                   Moda in Spanish - Fashion in English.
