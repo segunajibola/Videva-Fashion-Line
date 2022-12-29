@@ -1,7 +1,7 @@
 import React from "react";
 import Contact from "./Contact";
 import Testimonials from "./Testimonials";
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import "react-lazy-load-image-component/src/effects/blur.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import PlaceholderImage from "/images/img5-placeholder.jpg";
 import Services from "./Services";
@@ -9,16 +9,16 @@ import Services from "./Services";
 const Home = () => {
   return (
     <>
-      <header className="pt-4 md:pt-0 px-2 md:flex min-h-full items-center justify-between w-full bg-gray-900 bg-center dark:bg-gray-100 text-white">
+      <header className="pt-4 md:pt-0 px-2 md:flex min-h-full items-center justify-between w-[100%] bg-gray-900 bg-center dark:bg-gray-100 text-white">
         <div className="w-[90vw] mx-auto">
-          <div className="md:grid grid-cols-5 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-16 md:h-[100vh] mx-auto">
+          <div className="md:grid grid-cols-5 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-24 md:pb-10 mx-auto">
             <div className="animate-fade-in-right grid col-span-2">
-              <div className="flex flex-col pt-1 space-y-6 md:mt-15 my-auto">
+              <div className="flex flex-col pt-1 space-y-6 mt-10 md:mt-15 my-auto">
                 <h1 className="text-4xl font-bold mb-2">MODA</h1>
-                <p className="text-3xl">
+                <p className="text-xl md:text-3xl">
                   Moda in Spanish - Fashion in English.
                 </p>
-                <p className="text-2xl">
+                <p className="text-lg md:text-2xl">
                   Fashion, trend, style, vogue - everything here. Look, we know
                   it's hard to find the perfect pair of pants that fits your
                   body. You're not alone—we've all been there! But we want to
@@ -43,16 +43,16 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="animate-fade-in-left grid col-span-3 justify-center mt-5 items-center w-full">
+            <div className="animate-fade-in-left grid col-span-3 justify-center mt-5 items-center w-full border-4">
               <img
                 src="images/vector.png"
                 alt="Responsive components"
-                className="w-full md:w-[40rem] h-[45rem] -mt-64 borde r-4"
+                className="w-full md:w-[300px] h-[25rem] -mt-64 borde r-4"
               />
               <img
                 src="images/homeFashion.png"
                 alt="Responsive components"
-                className="absolute w-full md:w-[40rem] h-[52.4rem] -mt-64"
+                className="absolute w-full md:w-[28rem] h[40rem] h-[52.4rem] -mt-64"
               />
             </div>
           </div>
@@ -77,7 +77,7 @@ const Home = () => {
               />
             </div>
             <div className="mx-auto">
-            <LazyLoadImage
+              <LazyLoadImage
                 src={`img/img6.jpg`}
                 width={400}
                 height={450}
@@ -193,7 +193,7 @@ const Home = () => {
           </div>
 
           <div className="row-start-3 col-end-7 col-span-3 justify-self-end place-self-end">
-             <p className="text-white text-lg">
+            <p className="text-white text-lg">
               We believe in making products with love and care—that's why we
               donate 10% of our profits to environmental causes (like protecting
               our oceans through plastic pollution).
@@ -233,7 +233,7 @@ const Home = () => {
           </div>
         </div>
       </section> */}
-      </>
+    </>
   );
 };
 
