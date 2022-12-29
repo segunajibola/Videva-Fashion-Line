@@ -92,13 +92,13 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t-2 text-gray-100 my-8 py-4 flex space-between">
+        <div className="border-t-2 text-gray-100 my-8 py-4 flex justify-between">
         <div className="flex gap-2">
             <FaFacebook />
             <FaTwitter />
             <FaLinkedin />
         </div>
-        <div className="flex justify-end">
+        <div>
             <p>&#169; {new Date().getFullYear()} Moda, All right reserved.</p>
         </div>
         </div>
