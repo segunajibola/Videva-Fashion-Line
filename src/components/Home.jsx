@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <header className="pt-4 md:pt-0 px-2 md:flex min-h-full items-center justify-between w-[100%] bg-gray-900 bg-center dark:bg-gray-100 text-white">
         <div className="w-[90vw] mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-5 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-24 md:pb-10 mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-24 md:pb-10 mx-auto">
             <div className="animate-fade-in-right grid col-span-2">
               <div className="flex flex-col pt-1 space-y-6 mt-10 md:mt-15 my-auto">
                 <h1 className="text-4xl font-bold mb-2">MODA</h1>
@@ -43,19 +43,19 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="animate-fade-in-left grid col-span-3 justify-center mt-5 items-center w-full border-4 border-red-500">
-              <div className="">
+            <div className="animate-fade-in-left grid col-span-2 justify-center mt-5 items-center w-full border-4 border-red-500">
+              {/* <div className="">
                 <img
                 src="images/vector.png"
                 alt="Moda"
                 className="w-full md:w-[300px] h2 md:h-[25rem]"
               />
-              </div>
+              </div> */}
               
               <img
                 src="images/homeFashion.png"
                 alt="Moda"
-                className="absolute w-[25rem] h-[30rem] md:h[40rem] md:w-[28rem] -mt-32 md:-mt-64"
+                className="w-[100%] h-full border-4 md:h[40rem] md:w-[28rem]"
               />
             </div>
           </div>
