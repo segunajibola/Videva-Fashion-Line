@@ -48,14 +48,14 @@ const Home = () => {
                 <img
                 src="images/vector.png"
                 alt="Responsive components"
-                className="w-full md:w-[300px] h2 md:h-[25rem] -mt-64 borde r-4"
+                className="w-ffull md:w-[300px] h2 md:h-[25rem] -mt-d64 borde r-4"
               />
               </div>
               
               <img
                 src="images/homeFashion.png"
                 alt="Responsive components"
-                className="absolute w-full md:w-[28rem] md:h[40rem] h-[52.4rem] -mt-64"
+                className="absolute w-full h-[30rem] md:w-[28rem] md:h[40rem] -mt-32 md:-mt-64"
               />
             </div>
           </div>
