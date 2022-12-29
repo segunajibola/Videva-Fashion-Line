@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <header className="pt-4 md:pt-0 px-2 md:flex min-h-full items-center justify-between w-[100%] bg-gray-900 bg-center dark:bg-gray-100 text-white">
         <div className="w-[90vw] mx-auto">
-          <div className="md:grid grid-cols-5 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-24 md:pb-10 mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-5 md:space-x-10 justify-between pt-4 px-1 md:px-2 md:pt-24 md:pb-10 mx-auto">
             <div className="animate-fade-in-right grid col-span-2">
               <div className="flex flex-col pt-1 space-y-6 mt-10 md:mt-15 my-auto">
                 <h1 className="text-4xl font-bold mb-2">MODA</h1>
@@ -43,16 +43,19 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="animate-fade-in-left grid col-span-3 justify-center mt-5 items-center w-full border-4">
-              <img
+            <div className="animate-fade-in-left grid col-span-3 justify-center mt-5 items-center w-full border-4 border-red-500">
+              <div className="">
+                <img
                 src="images/vector.png"
                 alt="Responsive components"
-                className="w-full md:w-[300px] h-[25rem] -mt-64 borde r-4"
+                className="w-full md:w-[300px] h2 md:h-[25rem] -mt-64 borde r-4"
               />
+              </div>
+              
               <img
                 src="images/homeFashion.png"
                 alt="Responsive components"
-                className="absolute w-full md:w-[28rem] h[40rem] h-[52.4rem] -mt-64"
+                className="absolute w-full md:w-[28rem] md:h[40rem] h-[52.4rem] -mt-64"
               />
             </div>
           </div>
