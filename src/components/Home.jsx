@@ -55,7 +55,7 @@ const Home = () => {
               <img
                 src="images/homeFashion.png"
                 alt="Moda"
-                className="absolute w-full h-[30rem] md:h[40rem] md:w-[28rem] -mt-32 md:-mt-64"
+                className="absolute w-[25rem] h-[30rem] md:h[40rem] md:w-[28rem] -mt-32 md:-mt-64"
               />
             </div>
           </div>
